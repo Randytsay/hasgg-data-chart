@@ -1,56 +1,138 @@
-# Page Topology - hasgg.com/data-chart
+# hasgg.com Page Topology
 
-## Overview
+## Site: https://www.hasgg.com
 
-A Chinese-language data visualization tools catalog page with a simple static layout. The page displays 86 chart types organized in a single list without categories or filtering.
+### Page-Level Structure
+1. **Fixed Navigation Bar** - Sticky top navbar with mega-menu dropdowns
+2. **Main Content Area** - Tool-specific content
+3. **Footer** - Copyright, language toggle, back-to-top
 
-## Sections (top to bottom)
+---
 
-### 1. Navigation Bar (sticky)
-- **Structure:** Transparent header with logo on left, nav links in center, login/register on right
-- **Logo:** "聚集工具" (Aggregation Tools) with site logo image
-- **Nav links:** 金融理財 | 數據圖表 | 單位換算 | 地理坐標 | 文檔辦公 | 文本處理 | 站長開發 | 圖片處理 | 日常生活 | 命理運勢
-- **User actions:** Search icon, Login/Register link
-- **Height:** 80px
-- **Position:** Fixed top, transparent background initially
+## Page: scatter-histogram-chart-creation
 
-### 2. Breadcrumbs
-- **Structure:** Home > 數據圖表
-- **Style:** Small muted text
+### Section 1: Top Navigation
+- **Type:** Fixed/sticky navbar
+- **Contains:** Logo, site title, mega-menu dropdowns, language toggle
+- **Menu categories:** 金融理財, 數據圖表, 單位換算, 地理坐標, 文檔辦公, 文本處理, 站長開發, 圖片處理, 日常生活, 命理運勢
 
-### 3. Page Title Section
-- **h1:** "數據圖表" (Data Charts)
-- **Description:** Chinese paragraph explaining the page purpose
+### Section 2: Tool Header
+- **Contains:** Page title "直方圖製作"
+- **Type:** Static header section
 
-### 4. Chart Items Grid
-- **Structure:** 86 chart type headings (h3) in a list
-- **Items include:** 折線圖, 縱向柱狀圖, 基礎餅圖, 散點圖, K線圖, 雷達圖, 盒須圖, 樹狀圖, 矩形樹圖, 旭日圖, 桑基圖, 漏斗圖, 熱力圖, 直方圖, 儀錶盤圖, 主題河流圖, 南丁格爾玫瑰圖, 3D charts, 日曆圖, 思維導圖, etc.
-- **Style:** Each is a link styled heading, 20px font, black color
-- **Interaction:** Hover shows underline or color change (static, no animation)
+### Section 3: Tool Form
+- **Type:** Interactive form with multiple sections
+- **Layout:** Left side form controls, right side chart preview area
 
-### 5. Comment Section (placeholder)
-- **Heading:** "撰寫評論" / "Leave a Reply"
-- **Style:** Minimal form placeholder
+**Form Controls:**
+- 標題 [可選] - Text input
+- 副標題 [可選] - Text input
+- 統計維度 [可選] - Text input
+- 計量單位 [可選] - Text input
+- X軸標籤 - Text input
+- Y軸標籤 - Text input
+- 選擇主題 [可選] - Dropdown (40+ themes)
+- 散點大小 - Number input
+- 散點類型 - Dropdown (普通散點 / 動效散點)
 
-### 6. Footer
-- **Background:** Dark green `rgb(20, 30, 15)`
-- **Content:** Copyright text, site links
-- **Stats:** "Files:164 - Queries:0 - Time:0.032 - Mem:3.4277"
+**Data Entry Table:**
+- Import Excel button
+- Add row button (添加一行)
+- Add column button (添加一豎)
+- Clear data button (清除數據)
+- Editable cells for data
 
-### 7. Floating "To Top" Button
-- **Text:** "缘"
-- **Position:** Fixed, appears on scroll (bottom right area)
+**Chart Options:**
+- 附加信息內容 [可選] - Text area
+- 文字大小(px) - Number input
+- 文字顏色 - Color picker
+- 水印內容 [可選] - Text input
+- 圖例位置 - Radio buttons (左側/右側/頂部/底部/隱藏)
 
-## Z-Index Layers
-1. Navigation bar (z-index not specified, natural stacking)
-2. Floating button (fixed positioning)
-3. Comment form (modal-like overlay with shadow)
+**Action Buttons:**
+- 生成圖表 (Generate)
+- 下載圖表 (Download PNG)
+- 清除所有 (Clear all)
+
+### Section 4: Chart Preview Area
+- **Type:** Real-time chart preview
+- **Location:** Right side of form (or below on mobile)
+- **Behavior:** Updates live when form values change
+
+### Section 5: Feature List
+- **Type:** Static text section
+- **Contains:** Feature descriptions
+
+### Section 6: Footer
+- **Type:** Static
+- **Contains:** Copyright, language toggle, back-to-top button
+
+---
+
+## Page: bar-stack-brush-creation
+
+### Section 1-6: Same as scatter-histogram-chart-creation (Navigation, Header, Form, Preview, Features, Footer)
+
+### Key Differences in Form:
+- **Chart Type:** Stacked bar chart with brush selection
+- **Extra Options:**
+  - 顯示數值標籤 - Checkbox
+  - 數值標籤旋轉角度 - Number input
+  - 數據列配置 - Text input with format: `2,3#8/4,5#5/6,7#10`
+  - 標記連線數據列 - Text input with format: `2,3`
+
+### Sample Data (pre-populated):
+- Years: 2017年, 2018年, 2019年, 2020年, 2021年, 2022年
+- Countries: 美國, 中國, 德國, 日本, 印度 with numeric values
+
+---
+
+## Page: rounded-corner-circle-chart-creation
+
+### Section 1-6: Same structure (Navigation, Header, Form, Preview, Features, Footer)
+
+### Key Differences in Form:
+- **Chart Type:** Rounded corner donut chart
+- **Data Type:** Radio buttons (整數 / 小數)
+- **Legend Position:** Radio buttons (左側/右側/底部/隱藏) - no 頂部 option
+- **No:** 散點大小, 散點類型, X軸標籤, Y軸標籤
+
+---
+
+## Page: line-polar-chart-creation2
+
+### Section 1-6: Same structure (Navigation, Header, Form, Preview, Features, Footer)
+
+### Key Differences in Form:
+- **Chart Type:** Polar coordinate dual-axis line chart
+- **Extra Field:**
+  - 輸入函數 - Text input (e.g., Math.sin(2 * x) * Math.cos(2 * x))
+- **Legend Position:** Same options (左側/右側/頂部/底部/隱藏)
+
+---
+
+## Layout Grid (Desktop 1440px)
+```
+| Nav (full width, fixed) |
+|--------------------------|
+| Header (centered, max-width) |
+|--------------------------|
+| Form (left ~50%) | Preview (right ~50%) |
+|--------------------------|
+| Features (centered) |
+|--------------------------|
+| Footer (full width) |
+```
 
 ## Responsive Behavior
+- **Desktop (1440px):** Two-column layout (form + preview side by side)
+- **Tablet (768px):** May stack to single column
+- **Mobile (390px):** Single column, form above preview
 
-- **Desktop (1440px):** Full layout, 80px nav, standard content
-- **Tablet/Mobile:** Layout adjusts, nav may collapse or become scrollable
-
-## Interaction Model
-
-**Static page** — no scroll-driven animations, no tab switching, no accordions. Simple hover effects on links and chart items. The floating "to top" button appears to be always visible or appears on scroll.
+## Z-Index Layers
+1. Fixed navbar (z-index: high)
+2. Mega-menu dropdowns (z-index: below navbar)
+3. Chart preview area
+4. Footer
+5. Back-to-top button (floating, appears on scroll)
+6. Fixed advertisements (can be closed)

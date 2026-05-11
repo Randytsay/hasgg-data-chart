@@ -1,0 +1,47 @@
+# hasgg.com Design Tokens
+
+## Color Palette
+- **Primary accent**: #fa7c0c (orange - for inputs)
+- **Border color**: #c1ddd2 (light teal)
+- **Table border**: #ddd
+- **Table header background**: #f2f2f2
+- **Text color**: #cbc3c3 (watermark/default text)
+- **White**: #fff (editable cells, backgrounds)
+
+## Typography
+- **Font**: System/default sans-serif
+- **Input font weight**: bold
+- **Input border radius**: 5pt
+- **Input text color**: #fa7c0c
+- **Table padding**: 8px
+- **Input font size**: 12px (default for watermark/additional info)
+
+## Spacing
+- **Table cell padding**: 8px
+- **Margin bottom for tables**: 20px
+- **Chart dimensions**: 1280px × 720px
+- **Button padding**: varies by type
+
+## Breakpoints
+- **Desktop**: 1440px viewport
+- **Mobile**: 390px viewport
+
+## Interactive States
+- **Editable cells**: contenteditable="true", background #fff
+- **Hover states**: buttons with pointer cursor
+- **Button types**: 導入Excel, 添加一行, 添加一豎, 清除數據, 生成圖表, 下載圖表, 清除所有
+
+## Theme Options
+All chart tools support 40+ themes:
+默認, 藍色, 蜜蜂靈感, 大篷車, 鯉魚, 酷, 深色, 深藍, 深-黑, 深色虎皮, 深色鮮切, 深蘑菇色, 愛德華, 森林, 鮮切, 水果, 灰色, 綠色, 鶴望蘭, 信息圖表, 靈感, 爵士, 倫敦, 馬卡龍, 馬卡龍2, 薄荷, 包裝, 紅色, 紅色天鵝絨, 羅馬, 皇家, 櫻花, 光澤, 科技藍, 復古
+
+## Chart Types by Page
+1. **Heatmap (Cartesian)**: 2D grid - time slots × days
+2. **Polar Heatmap**: radial grid - time × days in polar coordinates
+3. **Treemap**: hierarchical rectangles - 3 levels
+4. **Sunburst**: concentric circles - 3+ levels
+
+## Image Assets
+- Logo: /wp-content/themes/wndt-master/static/images/hasgg.png
+- Excel format examples: *_excel.png for each chart type
+- Tool example images: *.png for each chart type

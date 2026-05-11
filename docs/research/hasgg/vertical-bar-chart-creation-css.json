@@ -1,0 +1,227 @@
+{
+  "page": {
+    "url": "https://www.hasgg.com/vertical-bar-chart-creation",
+    "title": "縱向柱狀圖製作 - 聚集工具"
+  },
+  "viewport": {
+    "desktop": {"width": 1440, "height": 900},
+    "mobile": {"width": 390, "height": 900}
+  },
+  "layout": {
+    "maxWidth": "1425px",
+    "mainContentMaxWidth": "1384px",
+    "formSectionWidth": "1360px",
+    "navigationHeight": "80px",
+    "breadcrumbHeight": "18px",
+    "footerHeight": "101px"
+  },
+  "colors": {
+    "primary": "#333333",
+    "secondary": "#666666",
+    "text": {
+      "primary": "#333333",
+      "secondary": "#666666",
+      "muted": "#cbc3c3"
+    },
+    "background": {
+      "main": "#ffffff",
+      "inputFields": "#ffffff",
+      "buttons": {
+        "primary": "#007bff",
+        "secondary": "#6c757d"
+      }
+    },
+    "border": {
+      "default": "#dddddd",
+      "focus": "#007bff"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "chinese": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "code": "'SF Mono', Monaco, Inconsolata, 'Roboto Mono', monospace"
+    },
+    "fontSizes": {
+      "h1": "27px",
+      "h3": "23px",
+      "body": "14px",
+      "small": "12px",
+      "label": "27px (form labels)"
+    },
+    "fontWeights": {
+      "normal": 400,
+      "medium": 500,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "scale": [0, 4, 8, 12, 16, 24, 32, 48, 64],
+    "formFieldGap": "66px (label + input + gap)",
+    "sectionGap": "20px",
+    "buttonGap": "90px"
+  },
+  "borderRadius": {
+    "buttons": "4px",
+    "inputs": "4px",
+    "cards": "8px"
+  },
+  "components": {
+    "navigation": {
+      "height": "80px",
+      "itemWidth": "116px",
+      "itemHeight": "80px",
+      "logoSize": "48x48px"
+    },
+    "form": {
+      "labelHeight": "27px",
+      "inputHeight": "34px",
+      "textboxWidth": "380px",
+      "comboboxWidth": "380px",
+      "spinbuttonWidth": "167px"
+    },
+    "buttons": {
+      "standard": {"width": "74px", "height": "40px"},
+      "importExcel": {"width": "80px", "height": "40px"},
+      "wide": {"width": "283px", "height": "25px"},
+      "submit": {"width": "200px", "height": "40px"}
+    },
+    "table": {
+      "rowHeight": "44px",
+      "headerHeight": "44px",
+      "cellWidth": {
+        "dataLabel": "129px",
+        "valueColumn": "62px"
+      }
+    },
+    "chart": {
+      "iframeWidth": "1200px",
+      "iframeHeight": "720px"
+    }
+  },
+  "formFields": [
+    {
+      "type": "textbox",
+      "label": "標題[可選]：",
+      "placeholder": "輸入標題",
+      "defaultValue": "销售数据",
+      "position": {"left": "89px", "top": "226px"},
+      "size": {"width": "380px", "height": "34px"}
+    },
+    {
+      "type": "textbox",
+      "label": "副標題[可選]：",
+      "placeholder": "輸入副標題",
+      "defaultValue": "2023年季度数据",
+      "position": {"left": "89px", "top": "302px"},
+      "size": {"width": "380px", "height": "34px"}
+    },
+    {
+      "type": "textbox",
+      "label": "統計維度[可選]：",
+      "placeholder": "輸入統計維度",
+      "position": {"left": "89px", "top": "378px"},
+      "size": {"width": "380px", "height": "34px"}
+    },
+    {
+      "type": "textbox",
+      "label": "計量單位[可選]：",
+      "placeholder": "輸入計量單位",
+      "position": {"left": "89px", "top": "454px"},
+      "size": {"width": "380px", "height": "34px"}
+    },
+    {
+      "type": "combobox",
+      "label": "選擇主題[可選]：",
+      "options": ["默認", "藍色", "蜜蜂靈感", "藍色", "大篷車", "鯉魚", "酷", "深色", "深藍", "深-黑", "深色虎皮", "深色鮮切", "深蘑菇色", "愛德華", "森林", "鮮切", "水果", "灰色", "綠色", "鶴望蘭", "信息圖表", "靈感", "爵士", "倫敦", "馬卡龍", "馬卡龍2", "薄荷", "包裝", "紅色", "紅色天鵝絨", "羅馬", "皇家", "櫻花", "光澤", "科技藍", "復古"],
+      "selectedIndex": 0,
+      "position": {"left": "89px", "top": "530px"},
+      "size": {"width": "380px", "height": "36px"}
+    },
+    {
+      "type": "textbox",
+      "label": "附加信息內容[可選]：",
+      "placeholder": "輸入附加信息",
+      "defaultValue": "數據來源：聚集工具",
+      "position": {"left": "942px", "top": "226px"},
+      "size": {"width": "380px", "height": "34px"}
+    },
+    {
+      "type": "spinbutton",
+      "label": "文字大小(px)：",
+      "value": "12",
+      "position": {"left": "942px", "top": "292px"},
+      "size": {"width": "167px"}
+    },
+    {
+      "type": "textbox",
+      "label": "文字顏色：",
+      "value": "#cbc3c3",
+      "position": {"left": "942px", "top": "351px"},
+      "size": {"width": "50px"}
+    },
+    {
+      "type": "textbox",
+      "label": "水印內容[可選]：",
+      "placeholder": "輸入水印內容",
+      "defaultValue": "作者：hasgg.com",
+      "position": {"left": "942px", "top": "422px"},
+      "size": {"width": "380px", "height": "34px"}
+    },
+    {
+      "type": "spinbutton",
+      "label": "文字大小(px)：",
+      "value": "12",
+      "position": {"left": "942px", "top": "488px"},
+      "size": {"width": "167px"}
+    },
+    {
+      "type": "textbox",
+      "label": "文字顏色：",
+      "value": "#cbc3c3",
+      "position": {"left": "942px", "top": "547px"},
+      "size": {"width": "50px"}
+    }
+  ],
+  "buttons": [
+    {"label": "導入Excel", "position": {"left": "531px", "top": "673px"}, "size": {"width": "80px", "height": "40px"}},
+    {"label": "添加一行", "position": {"left": "626px", "top": "673px"}, "size": {"width": "74px", "height": "40px"}},
+    {"label": "添加一豎", "position": {"left": "716px", "top": "673px"}, "size": {"width": "74px", "height": "40px"}},
+    {"label": "清除數據", "position": {"left": "805px", "top": "673px"}, "size": {"width": "74px", "height": "40px"}},
+    {"label": "生成圖表", "position": {"left": "586px", "top": "655px"}, "size": {"width": "74px", "height": "40px"}},
+    {"label": "下載圖表", "position": {"left": "676px", "top": "655px"}, "size": {"width": "74px", "height": "40px"}},
+    {"label": "清除所有", "position": {"left": "765px", "top": "655px"}, "size": {"width": "74px", "height": "40px"}},
+    {"label": "提交", "position": {"left": "613px", "top": "3464px"}, "size": {"width": "200px", "height": "40px"}}
+  ],
+  "radioGroups": [
+    {
+      "label": "圖例位置：",
+      "options": ["左側", "右側", "頂部", "底部", "隱藏"],
+      "selectedIndex": 0,
+      "position": {"left": "52px", "top": "1660px"}
+    }
+  ],
+  "checkboxes": [
+    {
+      "label": "顯示數值標籤",
+      "position": {"left": "98px", "top": "1737px"}
+    }
+  ],
+  "table": {
+    "headers": ["數據", "2017", "2018", "2019", "2020", "2021", "2022"],
+    "rows": [
+      ["美國", "100", "120", "140", "160", "180", "200"],
+      ["中國", "80", "95", "110", "130", "150", "170"],
+      ["德國", "60", "65", "70", "75", "80", "85"],
+      ["日本", "50", "55", "60", "65", "70", "75"],
+      ["印度", "40", "45", "50", "55", "60", "65"]
+    ]
+  },
+  "footer": {
+    "stats": "Files:164 - Queries:0 - Time:0.031 - Mem:3.3548",
+    "copyright": "Copyright ©2026 保留所有權利",
+    "links": [
+      {"text": "聚集工具", "url": "https://www.hasgg.com/"},
+      {"text": "網站協議", "url": "https://www.hasgg.com/website-agreement"}
+    ]
+  }
+}

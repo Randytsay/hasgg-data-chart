@@ -1,0 +1,297 @@
+- generic [active] [ref=e1] [box=0,0,375,5518]:
+  - navigation [ref=e4] [box=0,0,375,79]:
+    - generic [ref=e5] [box=0,0,375,79]:
+      - link "聚集工具" [ref=e8] [cursor=pointer] [box=12,17,48,61]:
+        - /url: https://www.hasgg.com
+        - img "聚集工具" [ref=e9] [box=12,17,48,48]
+      - link "聚集工具" [ref=e11] [cursor=pointer] [box=74,28,64,24]:
+        - /url: https://www.hasgg.com
+      - img [ref=e18] [cursor=pointer] [box=338,27,25,25]
+    - text:  
+  - generic [ref=e19] [box=0,80,375,5306]:
+    - navigation "breadcrumbs" [ref=e22] [box=12,100,327,18]:
+      - list [ref=e23] [box=12,100,327,18]:
+        - listitem [ref=e24] [box=12,100,33,18]:
+          - link "首頁" [ref=e25] [cursor=pointer] [box=12,100,33,18]:
+            - /url: https://www.hasgg.com
+        - listitem [ref=e26] [box=45,100,84,18]:
+          - text: /
+          - generic [box=51,100,78,18]: 直方圖製作
+    - generic [ref=e28] [box=0,130,375,5246]:
+      - generic [ref=e29] [box=0,130,375,4841]:
+        - generic [ref=e30] [box=12,142,351,2532]:
+          - heading "直方圖製作工具" [level=1] [ref=e32] [box=32,167,311,27]
+          - generic [ref=e33] [box=32,214,311,1274]:
+            - generic [ref=e34] [box=37,220,301,404]:
+              - generic [ref=e35] [box=48,231,279,66]:
+                - generic [ref=e36] [box=48,231,269,27]: 標題[可選]：
+                - textbox "標題[可選]：" [ref=e37] [box=48,263,279,34]:
+                  - /placeholder: 輸入標題
+                  - text: 直方圖製作
+              - generic [ref=e38] [box=48,307,279,66]:
+                - generic [ref=e39] [box=48,307,269,27]: 副標題[可選]：
+                - textbox "副標題[可選]：" [ref=e40] [box=48,339,279,34]:
+                  - /placeholder: 輸入副標題
+                  - text: 直方圖
+              - generic [ref=e41] [box=48,383,279,66]:
+                - generic [ref=e42] [box=48,383,269,27]: 統計維度[可選]：
+                - textbox "統計維度[可選]：" [ref=e43] [box=48,415,279,34]:
+                  - /placeholder: 輸入統計維度
+              - generic [ref=e44] [box=48,459,279,66]:
+                - generic [ref=e45] [box=48,459,269,27]: 計量單位[可選]：
+                - textbox "計量單位[可選]：" [ref=e46] [box=48,491,279,34]:
+                  - /placeholder: 輸入計量單位
+              - generic [ref=e47] [box=48,535,279,68]:
+                - generic [ref=e48] [box=48,535,269,27]: 選擇主題[可選]：
+                - combobox "選擇主題[可選]：" [ref=e49] [box=48,567,279,36]:
+                  - option "默認" [selected] [box=0,0,0,0]
+                  - option "藍色" [box=0,0,0,0]
+                  - option "蜜蜂靈感" [box=0,0,0,0]
+                  - option "藍色" [box=0,0,0,0]
+                  - option "大篷車" [box=0,0,0,0]
+                  - option "鯉魚" [box=0,0,0,0]
+                  - option "酷" [box=0,0,0,0]
+                  - option "深色" [box=0,0,0,0]
+                  - option "深藍" [box=0,0,0,0]
+                  - option "深-黑" [box=0,0,0,0]
+                  - option "深色虎皮" [box=0,0,0,0]
+                  - option "深色鮮切" [box=0,0,0,0]
+                  - option "深蘑菇色" [box=0,0,0,0]
+                  - option "愛德華" [box=0,0,0,0]
+                  - option "森林" [box=0,0,0,0]
+                  - option "鮮切" [box=0,0,0,0]
+                  - option "水果" [box=0,0,0,0]
+                  - option "灰色" [box=0,0,0,0]
+                  - option "綠色" [box=0,0,0,0]
+                  - option "鶴望蘭" [box=0,0,0,0]
+                  - option "信息圖表" [box=0,0,0,0]
+                  - option "靈感" [box=0,0,0,0]
+                  - option "爵士" [box=0,0,0,0]
+                  - option "倫敦" [box=0,0,0,0]
+                  - option "馬卡龍" [box=0,0,0,0]
+                  - option "馬卡龍2" [box=0,0,0,0]
+                  - option "薄荷" [box=0,0,0,0]
+                  - option "包裝" [box=0,0,0,0]
+                  - option "紅色" [box=0,0,0,0]
+                  - option "紅色天鵝絨" [box=0,0,0,0]
+                  - option "羅馬" [box=0,0,0,0]
+                  - option "皇家" [box=0,0,0,0]
+                  - option "櫻花" [box=0,0,0,0]
+                  - option "光澤" [box=0,0,0,0]
+                  - option "科技藍" [box=0,0,0,0]
+                  - option "復古" [box=0,0,0,0]
+            - generic [ref=e50] [box=37,636,301,420]:
+              - generic [ref=e51] [box=48,647,254,54]:
+                - text: "*添加數據或："
+                - button "*添加數據或：" [ref=e52] [box=48,676,283,25]
+              - table [ref=e53] [box=48,706,264,1409]:
+                - rowgroup [ref=e54] [box=49,707,263,44]:
+                  - row "2021" [ref=e55] [box=49,707,263,44]:
+                    - columnheader [ref=e56] [box=49,707,129,44]
+                    - columnheader "2021" [ref=e57] [box=177,707,134,44]
+                - rowgroup [ref=e58] [box=49,751,263,1364]:
+                  - row "8.3 143" [ref=e59] [box=49,751,263,44]:
+                    - cell "8.3" [ref=e60] [box=49,751,129,44]
+                    - cell "143" [ref=e61] [box=177,751,134,44]
+                  - row "8.6 214" [ref=e62] [box=49,795,263,44]:
+                    - cell "8.6" [ref=e63] [box=49,795,129,44]
+                    - cell "214" [ref=e64] [box=177,795,134,44]
+                  - row "8.8 251" [ref=e65] [box=49,839,263,44]:
+                    - cell "8.8" [ref=e66] [box=49,839,129,44]
+                    - cell "251" [ref=e67] [box=177,839,134,44]
+                  - row "10.5 26" [ref=e68] [box=49,883,263,44]:
+                    - cell "10.5" [ref=e69] [box=49,883,129,44]
+                    - cell "26" [ref=e70] [box=177,883,134,44]
+                  - row "10.7 86" [ref=e71] [box=49,927,263,44]:
+                    - cell "10.7" [ref=e72] [box=49,927,129,44]
+                    - cell "86" [ref=e73] [box=177,927,134,44]
+                  - row "10.8 93" [ref=e74] [box=49,971,263,44]:
+                    - cell "10.8" [ref=e75] [box=49,971,129,44]
+                    - cell "93" [ref=e76] [box=177,971,134,44]
+                  - row "11.0 176" [ref=e77] [box=49,1015,263,44]:
+                    - cell "11.0" [ref=e78] [box=49,1015,129,44]
+                    - cell "176" [ref=e79] [box=177,1015,134,44]
+                  - row "11.0 39" [ref=e80] [box=49,1059,263,44]:
+                    - cell "11.0" [ref=e81] [box=49,1059,129,44]
+                    - cell "39" [ref=e82] [box=177,1059,134,44]
+                  - row "11.1 221" [ref=e83] [box=49,1103,263,44]:
+                    - cell "11.1" [ref=e84] [box=49,1103,129,44]
+                    - cell "221" [ref=e85] [box=177,1103,134,44]
+                  - row "11.2 188" [ref=e86] [box=49,1147,263,44]:
+                    - cell "11.2" [ref=e87] [box=49,1147,129,44]
+                    - cell "188" [ref=e88] [box=177,1147,134,44]
+                  - row "11.3 57" [ref=e89] [box=49,1191,263,44]:
+                    - cell "11.3" [ref=e90] [box=49,1191,129,44]
+                    - cell "57" [ref=e91] [box=177,1191,134,44]
+                  - row "11.4 91" [ref=e92] [box=49,1235,263,44]:
+                    - cell "11.4" [ref=e93] [box=49,1235,129,44]
+                    - cell "91" [ref=e94] [box=177,1235,134,44]
+                  - row "11.4 191" [ref=e95] [box=49,1279,263,44]:
+                    - cell "11.4" [ref=e96] [box=49,1279,129,44]
+                    - cell "191" [ref=e97] [box=177,1279,134,44]
+                  - row "11.7 8" [ref=e98] [box=49,1323,263,44]:
+                    - cell "11.7" [ref=e99] [box=49,1323,129,44]
+                    - cell "8" [ref=e100] [box=177,1323,134,44]
+                  - row "12.0 196" [ref=e101] [box=49,1367,263,44]:
+                    - cell "12.0" [ref=e102] [box=49,1367,129,44]
+                    - cell "196" [ref=e103] [box=177,1367,134,44]
+                  - row "12.9 177" [ref=e104] [box=49,1411,263,44]:
+                    - cell "12.9" [ref=e105] [box=49,1411,129,44]
+                    - cell "177" [ref=e106] [box=177,1411,134,44]
+                  - row "12.9 153" [ref=e107] [box=49,1455,263,44]:
+                    - cell "12.9" [ref=e108] [box=49,1455,129,44]
+                    - cell "153" [ref=e109] [box=177,1455,134,44]
+                  - row "13.3 201" [ref=e110] [box=49,1499,263,44]:
+                    - cell "13.3" [ref=e111] [box=49,1499,129,44]
+                    - cell "201" [ref=e112] [box=177,1499,134,44]
+                  - row "13.7 199" [ref=e113] [box=49,1543,263,44]:
+                    - cell "13.7" [ref=e114] [box=49,1543,129,44]
+                    - cell "199" [ref=e115] [box=177,1543,134,44]
+                  - row "13.8 47" [ref=e116] [box=49,1587,263,44]:
+                    - cell "13.8" [ref=e117] [box=49,1587,129,44]
+                    - cell "47" [ref=e118] [box=177,1587,134,44]
+                  - row "14.0 81" [ref=e119] [box=49,1631,263,44]:
+                    - cell "14.0" [ref=e120] [box=49,1631,129,44]
+                    - cell "81" [ref=e121] [box=177,1631,134,44]
+                  - row "14.2 98" [ref=e122] [box=49,1675,263,44]:
+                    - cell "14.2" [ref=e123] [box=49,1675,129,44]
+                    - cell "98" [ref=e124] [box=177,1675,134,44]
+                  - row "14.5 121" [ref=e125] [box=49,1719,263,44]:
+                    - cell "14.5" [ref=e126] [box=49,1719,129,44]
+                    - cell "121" [ref=e127] [box=177,1719,134,44]
+                  - row "16.0 37" [ref=e128] [box=49,1763,263,44]:
+                    - cell "16.0" [ref=e129] [box=49,1763,129,44]
+                    - cell "37" [ref=e130] [box=177,1763,134,44]
+                  - row "16.3 12" [ref=e131] [box=49,1807,263,44]:
+                    - cell "16.3" [ref=e132] [box=49,1807,129,44]
+                    - cell "12" [ref=e133] [box=177,1807,134,44]
+                  - row "17.3 105" [ref=e134] [box=49,1851,263,44]:
+                    - cell "17.3" [ref=e135] [box=49,1851,129,44]
+                    - cell "105" [ref=e136] [box=177,1851,134,44]
+                  - row "17.5 168" [ref=e137] [box=49,1895,263,44]:
+                    - cell "17.5" [ref=e138] [box=49,1895,129,44]
+                    - cell "168" [ref=e139] [box=177,1895,134,44]
+                  - row "17.9 84" [ref=e140] [box=49,1939,263,44]:
+                    - cell "17.9" [ref=e141] [box=49,1939,129,44]
+                    - cell "84" [ref=e142] [box=177,1939,134,44]
+                  - row "18.0 197" [ref=e143] [box=49,1983,263,44]:
+                    - cell "18.0" [ref=e144] [box=49,1983,129,44]
+                    - cell "197" [ref=e145] [box=177,1983,134,44]
+                  - row "18.0 155" [ref=e146] [box=49,2027,263,44]:
+                    - cell "18.0" [ref=e147] [box=49,2027,129,44]
+                    - cell "155" [ref=e148] [box=177,2027,134,44]
+                  - row "20.6 125" [ref=e149] [box=49,2071,263,44]:
+                    - cell "20.6" [ref=e150] [box=49,2071,129,44]
+                    - cell "125" [ref=e151] [box=177,2071,134,44]
+              - generic [ref=e153] [box=48,2130,264,124]:
+                - button "導入Excel" [ref=e154] [cursor=pointer] [box=53,2150,80,40]
+                - button "添加一行" [ref=e155] [cursor=pointer] [box=148,2150,74,40]
+                - button "添加一豎" [ref=e156] [cursor=pointer] [box=53,2212,74,40]
+                - button "清除數據" [ref=e157] [cursor=pointer] [box=142,2212,74,40]
+            - generic [ref=e158] [box=37,1068,301,414]:
+              - generic [ref=e159] [box=48,1079,279,186]:
+                - generic [ref=e160] [box=48,1079,269,27]: 附加信息內容[可選]：
+                - textbox "附加信息內容[可選]：" [ref=e161] [box=48,1111,279,34]:
+                  - /placeholder: 輸入附加信息
+                  - text: 數據來源：聚集工具
+                - generic [ref=e162] [box=48,1145,269,27]: 文字大小(px)：
+                - spinbutton "文字大小(px)：" [ref=e163] [box=48,1181,167,20]: "12"
+                - generic [ref=e164] [box=48,1204,269,27]: 文字顏色：
+                - textbox "文字顏色：" [ref=e165] [box=48,1236,50,27]: "#cbc3c3"
+              - generic [ref=e166] [box=48,1275,279,186]:
+                - generic [ref=e167] [box=48,1275,269,27]: 水印內容[可選]：
+                - textbox "水印內容[可選]：" [ref=e168] [box=48,1307,279,34]:
+                  - /placeholder: 輸入水印內容
+                  - text: 作者：hasgg.com
+                - generic [ref=e169] [box=48,1341,269,27]: 文字大小(px)：
+                - spinbutton "文字大小(px)：" [ref=e170] [box=48,1377,167,20]: "12"
+                - generic [ref=e171] [box=48,1400,269,27]: 文字顏色：
+                - textbox "文字顏色：" [ref=e172] [box=48,1432,50,27]: "#cbc3c3"
+          - generic [ref=e174] [box=56,1488,263,62]:
+            - button "生成圖表" [ref=e175] [cursor=pointer] [box=61,1508,74,40]
+            - button "下載圖表" [ref=e176] [cursor=pointer] [box=151,1508,74,40]
+            - button "清除所有" [ref=e177] [cursor=pointer] [box=240,1508,74,40]
+          - generic [ref=e178] [box=32,1562,311,1058]:
+            - generic [ref=e179] [box=52,1582,271,54]:
+              - text: 圖例位置：
+              - radio "圖例位置： 左側 右側 頂部 底部 隱藏" [ref=e180] [cursor=pointer] [box=132,1585,20,20]
+              - text: 左側
+              - radio [checked] [ref=e181] [cursor=pointer] [box=187,1585,20,20]
+              - text: 右側
+              - radio [ref=e182] [cursor=pointer] [box=242,1585,20,20]
+              - text: 頂部
+              - radio [ref=e183] [cursor=pointer] [box=297,1585,20,20]
+              - text: 底部
+              - radio [ref=e184] [cursor=pointer] [box=87,1612,20,20]
+              - text: 隱藏
+            - generic [ref=e185] [box=52,1641,271,27]:
+              - text: 散點大小：
+              - spinbutton "散點大小：" [ref=e186] [box=132,1645,167,20]: "10"
+            - generic [ref=e187] [box=52,1673,271,27]:
+              - text: 散點類型：
+              - radio "散點類型： 普通散點 動效散點" [checked] [ref=e188] [cursor=pointer] [box=132,1676,20,20]
+              - text: 普通散點
+              - radio [ref=e189] [cursor=pointer] [box=222,1676,20,20]
+              - text: 動效散點
+          - generic [box=32,2644,311,0]:
+            - insertion [box=32,2644,311,0]:
+              - generic [box=32,2663,311,0]:
+                - iframe [box=32,2663,311,0]
+        - generic [ref=e197] [box=12,2698,351,1767]:
+          - paragraph [ref=e198] [box=32,2718,311,162]: 直方圖製作工具是一款便捷易用的在線工具，專為數據分析和可視化而設計。用戶可以通過簡單的界面上傳和編輯數據，快速生成美觀的直方圖，用於展示和分析各類數據趨勢與分布。支持多種自定義選項，助你製作專業的圖表，提升報告和演示的視覺效。
+          - paragraph [box=32,2906,311,0]
+          - list [ref=e199] [box=62,2906,281,662]:
+            - listitem [ref=e200] [box=62,2906,281,54]: 圖表生成：根據用戶輸入的數據實時生成直方圖。
+            - listitem [ref=e201] [box=62,2964,281,54]: 多主題支持：提供多種主題選擇以美化圖表外觀。
+            - listitem [ref=e202] [box=62,3021,281,54]: 數據輸入：通過互動式表格錄入數據，簡單、直觀。
+            - listitem [ref=e203] [box=62,3079,281,27]: 數據導入：通過選擇Excel文件導入數據。
+            - listitem [ref=e204] [box=62,3110,281,54]: 自定義選項：允許用戶輸入標題、副標題和計量單位，添加附加信息和水印。
+            - listitem [ref=e205] [box=62,3168,281,54]: 圖表下載：支持將生成的圖表下載為PNG格式圖片。
+            - listitem [ref=e206] [box=62,3225,281,54]: 圖例位置調整：可選擇圖例顯示的位置，包括左側、右側、頂部、底部和隱藏。
+            - listitem [ref=e207] [box=62,3283,281,54]: 數據添加和刪除：用戶可以靈活地添加或刪除數據項。
+            - listitem [ref=e208] [box=62,3341,281,54]: 自動生成：在頁面載入時自動生成一個示例直方圖，方便用戶使用。
+            - listitem [ref=e209] [box=62,3399,281,54]: 實時預覽：實時查看數據變化對圖表的影響。
+            - listitem [ref=e210] [box=62,3456,281,54]: 清除功能：清除所有輸入的數據和選項，重新開始。
+            - listitem [ref=e211] [box=62,3514,281,54]: "全程本地處理: 純本地處理，完全安全，無需擔心隱私問題。"
+          - paragraph [box=32,3583,311,0]
+          - generic [box=32,3594,311,0]:
+            - insertion [box=32,3594,311,0]:
+              - generic [box=32,3613,311,0]:
+                - iframe [box=32,3613,311,0]
+          - paragraph [ref=e215] [box=32,3619,311,54]: 通過選擇Excel文件導入數據時Excel裡面的數據格式如下：
+          - img "直方圖Excel數據格式示例圖" [ref=e217] [box=32,3699,311,159]
+          - paragraph [ref=e218] [box=32,3866,311,27]: 直方圖製作工具示例圖：
+          - generic [ref=e219] [box=32,3918,311,517]:
+            - img "直方圖製作工具示例圖" [ref=e220] [box=32,3918,311,249]
+            - insertion [ref=e222] [box=32,4185,311,250]
+        - generic [ref=e225] [box=32,4541,311,398]:
+          - banner [ref=e226] [box=32,4541,311,49]:
+            - heading "撰寫評論" [level=3] [ref=e227] [box=142,4541,91,26]:
+              - link "撰寫評論" [ref=e228] [cursor=pointer] [box=142,4541,91,26]:
+                - /url: "#comments"
+          - generic [ref=e229] [box=32,4600,311,314]:
+            - heading "Leave a Reply" [level=3] [ref=e230] [box=32,4600,311,18]: Leave a Reply
+            - generic [ref=e231] [box=32,4628,311,286]:
+              - paragraph [ref=e232] [box=32,4628,311,54]:
+                - text: Your email address will not be published.
+                - generic [ref=e233] [box=112,4632,230,47]: Required fields are marked *
+              - textbox "評論、意見或反饋" [ref=e234] [box=32,4708,311,100]
+              - paragraph [ref=e235] [box=32,4816,156,32]:
+                - generic [ref=e236] [box=32,4816,49,27]: Name *
+                - textbox "Name *" [ref=e237] [box=81,4821,93,18]
+              - paragraph [ref=e238] [box=188,4816,156,32]:
+                - generic [ref=e239] [box=188,4816,47,27]: Email *
+                - textbox "Email *" [ref=e240] [box=235,4821,93,18]
+              - paragraph [ref=e241] [box=32,4826,311,88]:
+                - button "提交" [ref=e242] [cursor=pointer] [box=88,4874,200,40]
+      - insertion [ref=e244] [box=0,5001,375,375]
+  - contentinfo [ref=e246] [box=0,5416,375,101]:
+    - generic [ref=e247] [box=0,5453,375,56]:
+      - paragraph [ref=e248] [box=0,5453,375,26]: Files:164 - Queries:0 - Time:0.031 - Mem:3.4800
+      - paragraph [ref=e249] [box=0,5484,375,26]:
+        - text: Copyright ©2026 保留所有權利
+        - link "聚集工具" [ref=e250] [cursor=pointer] [box=226,5488,52,17]:
+          - /url: https://www.hasgg.com/
+        - link "網站協議" [ref=e251] [cursor=pointer] [box=278,5488,48,17]:
+          - /url: https://www.hasgg.com/website-agreement
+  - generic [ref=e252] [cursor=pointer] [box=30,805,50,50]: 缘

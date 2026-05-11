@@ -1,0 +1,397 @@
+- generic [active] [ref=e1] [box=0,0,375,5429]:
+  - navigation [ref=e4] [box=0,0,375,79]:
+    - generic [ref=e5] [box=0,0,375,79]:
+      - link "聚集工具" [ref=e8] [cursor=pointer] [box=12,17,48,61]:
+        - /url: https://www.hasgg.com
+        - img "聚集工具" [ref=e9] [box=12,17,48,48]
+      - link "聚集工具" [ref=e11] [cursor=pointer] [box=74,28,64,24]:
+        - /url: https://www.hasgg.com
+      - img [ref=e18] [cursor=pointer] [box=338,27,25,25]
+    - text:  
+  - generic [ref=e48] [box=0,80,375,5218]:
+    - navigation "breadcrumbs" [ref=e51] [box=12,100,327,18]:
+      - list [ref=e52] [box=12,100,327,18]:
+        - listitem [ref=e53] [box=12,100,33,18]:
+          - link "首頁" [ref=e54] [cursor=pointer] [box=12,100,33,18]:
+            - /url: https://www.hasgg.com
+        - listitem [ref=e55] [box=45,100,144,18]:
+          - text: /
+          - generic [box=51,100,138,18]: 數據集 3D 柱狀圖製作
+    - generic [ref=e58] [box=0,130,375,5168]:
+      - generic [ref=e59] [box=12,142,351,2697]:
+        - heading "數據集 3D 柱狀圖製作工具" [level=1] [ref=e61] [box=32,167,311,27]
+        - generic [ref=e62] [box=32,214,311,1290]:
+          - generic [ref=e63] [box=37,220,301,420]:
+            - generic [ref=e64] [box=48,231,264,66]:
+              - generic [ref=e65] [box=48,231,254,27]: 標題[可選]：
+              - textbox "標題[可選]：" [ref=e66] [box=48,263,264,34]:
+                - /placeholder: 輸入標題
+                - text: 數據集 3D 柱狀圖
+            - generic [ref=e67] [box=48,307,264,66]:
+              - generic [ref=e68] [box=48,307,254,27]: 副標題[可選]：
+              - textbox "副標題[可選]：" [ref=e69] [box=48,339,264,34]:
+                - /placeholder: 輸入副標題
+                - text: 帶數據集的 3D 柱狀圖
+            - generic [ref=e70] [box=48,383,264,66]:
+              - generic [ref=e71] [box=48,383,254,27]: 統計維度[可選]：
+              - textbox "統計維度[可選]：" [ref=e72] [box=48,415,264,34]:
+                - /placeholder: 輸入統計維度
+                - text: 年份
+            - generic [ref=e73] [box=48,459,264,66]:
+              - generic [ref=e74] [box=48,459,254,27]: Z軸計量單位[可選]：
+              - textbox "Z軸計量單位[可選]：" [ref=e75] [box=48,491,264,34]:
+                - /placeholder: 輸入計量單位
+                - text: $
+            - generic [ref=e76] [box=48,535,264,66]:
+              - generic [ref=e77] [box=48,535,254,27]: Y軸計量單位[可選]：
+              - textbox "Y軸計量單位[可選]： 其它計量單位[可選]：" [ref=e78] [box=48,567,264,34]:
+                - /placeholder: 輸入計量單位
+                - text: 歲
+            - generic [ref=e79] [box=48,611,264,66]:
+              - generic [ref=e80] [box=48,611,254,27]: 其它計量單位[可選]：
+              - textbox "輸入計量單位" [ref=e81] [box=48,643,264,34]: 人
+            - generic [ref=e82] [box=48,687,264,330]:
+              - generic [ref=e83] [box=48,687,254,27]: X軸標籤：
+              - textbox "X軸標籤：" [ref=e84] [box=48,719,264,34]:
+                - /placeholder: 輸入X軸標籤
+                - text: 年份
+              - generic [ref=e85] [box=48,753,254,27]: Y軸標籤：
+              - textbox "Y軸標籤：" [ref=e86] [box=48,785,264,34]:
+                - /placeholder: 輸入Y軸標籤
+                - text: 國家
+              - generic [ref=e87] [box=48,819,254,27]: Z軸標籤：
+              - textbox "Z軸標籤：" [ref=e88] [box=48,851,264,34]:
+                - /placeholder: 輸入其它標籤
+                - text: 平均壽命
+              - generic [ref=e89] [box=48,885,254,27]: 其它標籤：
+              - textbox "其它標籤：" [ref=e90] [box=48,917,264,34]:
+                - /placeholder: 輸入其它標籤
+                - text: 人口
+              - generic [ref=e91] [box=48,951,254,27]: 其它標籤2：
+              - textbox "其它標籤2：" [ref=e92] [box=48,983,264,34]:
+                - /placeholder: 輸入其它標籤
+                - text: GDP
+            - generic [ref=e93] [box=48,1027,264,68]:
+              - generic [ref=e94] [box=48,1027,254,27]: 選擇主題[可選]：
+              - combobox "選擇主題[可選]：" [ref=e95] [box=48,1059,264,36]:
+                - option "默認" [selected] [box=0,0,0,0]
+                - option "藍色" [box=0,0,0,0]
+                - option "蜜蜂靈感" [box=0,0,0,0]
+                - option "藍色" [box=0,0,0,0]
+                - option "大篷車" [box=0,0,0,0]
+                - option "鯉魚" [box=0,0,0,0]
+                - option "酷" [box=0,0,0,0]
+                - option "深色" [box=0,0,0,0]
+                - option "深藍" [box=0,0,0,0]
+                - option "深-黑" [box=0,0,0,0]
+                - option "深色虎皮" [box=0,0,0,0]
+                - option "深色鮮切" [box=0,0,0,0]
+                - option "深蘑菇色" [box=0,0,0,0]
+                - option "愛德華" [box=0,0,0,0]
+                - option "森林" [box=0,0,0,0]
+                - option "鮮切" [box=0,0,0,0]
+                - option "水果" [box=0,0,0,0]
+                - option "灰色" [box=0,0,0,0]
+                - option "綠色" [box=0,0,0,0]
+                - option "鶴望蘭" [box=0,0,0,0]
+                - option "信息圖表" [box=0,0,0,0]
+                - option "靈感" [box=0,0,0,0]
+                - option "爵士" [box=0,0,0,0]
+                - option "倫敦" [box=0,0,0,0]
+                - option "馬卡龍" [box=0,0,0,0]
+                - option "馬卡龍2" [box=0,0,0,0]
+                - option "薄荷" [box=0,0,0,0]
+                - option "包裝" [box=0,0,0,0]
+                - option "紅色" [box=0,0,0,0]
+                - option "紅色天鵝絨" [box=0,0,0,0]
+                - option "羅馬" [box=0,0,0,0]
+                - option "皇家" [box=0,0,0,0]
+                - option "櫻花" [box=0,0,0,0]
+                - option "光澤" [box=0,0,0,0]
+                - option "科技藍" [box=0,0,0,0]
+                - option "復古" [box=0,0,0,0]
+          - generic [ref=e96] [box=37,652,301,420]:
+            - generic [ref=e97] [box=48,663,254,54]:
+              - text: "*添加數據或："
+              - button "*添加數據或：" [ref=e98] [box=48,692,283,25]
+            - table [ref=e99] [box=48,722,560,881]:
+              - rowgroup [ref=e100] [box=49,723,559,44]:
+                - row "數據 1990 2015" [ref=e101] [box=49,723,559,44]:
+                  - columnheader "數據" [ref=e102] [box=49,723,129,44]
+                  - columnheader [ref=e103] [box=178,723,62,44]
+                  - columnheader [ref=e104] [box=240,723,99,44]
+                  - columnheader "1990" [ref=e105] [box=339,723,50,44]
+                  - columnheader [ref=e106] [box=389,723,62,44]
+                  - columnheader [ref=e107] [box=451,723,103,44]
+                  - columnheader "2015" [ref=e108] [box=555,723,53,44]
+              - rowgroup [ref=e109] [box=49,767,559,836]:
+                - row "Australia 28604 17096869 77 44056 23968973 81.8" [ref=e110] [box=49,767,559,44]:
+                  - cell "Australia" [ref=e111] [box=49,767,129,44]
+                  - cell "28604" [ref=e112] [box=178,767,62,44]
+                  - cell "17096869" [ref=e113] [box=240,767,99,44]
+                  - cell "77" [ref=e114] [box=339,767,50,44]
+                  - cell "44056" [ref=e115] [box=389,767,62,44]
+                  - cell "23968973" [ref=e116] [box=451,767,103,44]
+                  - cell "81.8" [ref=e117] [box=555,767,53,44]
+                - row "Canada 31163 27662440 77.4 43294 35939927 81.7" [ref=e118] [box=49,811,559,44]:
+                  - cell "Canada" [ref=e119] [box=49,811,129,44]
+                  - cell "31163" [ref=e120] [box=178,811,62,44]
+                  - cell "27662440" [ref=e121] [box=240,811,99,44]
+                  - cell "77.4" [ref=e122] [box=339,811,50,44]
+                  - cell "43294" [ref=e123] [box=389,811,62,44]
+                  - cell "35939927" [ref=e124] [box=451,811,103,44]
+                  - cell "81.7" [ref=e125] [box=555,811,53,44]
+                - row "China 1516 1154605773 68 13334 1376048943 76.9" [ref=e126] [box=49,855,559,44]:
+                  - cell "China" [ref=e127] [box=49,855,129,44]
+                  - cell "1516" [ref=e128] [box=178,855,62,44]
+                  - cell "1154605773" [ref=e129] [box=240,855,99,44]
+                  - cell "68" [ref=e130] [box=339,855,50,44]
+                  - cell "13334" [ref=e131] [box=389,855,62,44]
+                  - cell "1376048943" [ref=e132] [box=451,855,103,44]
+                  - cell "76.9" [ref=e133] [box=555,855,53,44]
+                - row "Cuba 13670 10582082 74.7 21291 11389562 78.5" [ref=e134] [box=49,899,559,44]:
+                  - cell "Cuba" [ref=e135] [box=49,899,129,44]
+                  - cell "13670" [ref=e136] [box=178,899,62,44]
+                  - cell "10582082" [ref=e137] [box=240,899,99,44]
+                  - cell "74.7" [ref=e138] [box=339,899,50,44]
+                  - cell "21291" [ref=e139] [box=389,899,62,44]
+                  - cell "11389562" [ref=e140] [box=451,899,103,44]
+                  - cell "78.5" [ref=e141] [box=555,899,53,44]
+                - row "Finland 28599 4986705 75 38923 5503457 80.8" [ref=e142] [box=49,943,559,44]:
+                  - cell "Finland" [ref=e143] [box=49,943,129,44]
+                  - cell "28599" [ref=e144] [box=178,943,62,44]
+                  - cell "4986705" [ref=e145] [box=240,943,99,44]
+                  - cell "75" [ref=e146] [box=339,943,50,44]
+                  - cell "38923" [ref=e147] [box=389,943,62,44]
+                  - cell "5503457" [ref=e148] [box=451,943,103,44]
+                  - cell "80.8" [ref=e149] [box=555,943,53,44]
+                - row "France 29476 56943299 77.1 37599 64395345 81.9" [ref=e150] [box=49,987,559,44]:
+                  - cell "France" [ref=e151] [box=49,987,129,44]
+                  - cell "29476" [ref=e152] [box=178,987,62,44]
+                  - cell "56943299" [ref=e153] [box=240,987,99,44]
+                  - cell "77.1" [ref=e154] [box=339,987,50,44]
+                  - cell "37599" [ref=e155] [box=389,987,62,44]
+                  - cell "64395345" [ref=e156] [box=451,987,103,44]
+                  - cell "81.9" [ref=e157] [box=555,987,53,44]
+                - row "Germany 31476 78958237 75.4 44053 80688545 81.1" [ref=e158] [box=49,1031,559,44]:
+                  - cell "Germany" [ref=e159] [box=49,1031,129,44]
+                  - cell "31476" [ref=e160] [box=178,1031,62,44]
+                  - cell "78958237" [ref=e161] [box=240,1031,99,44]
+                  - cell "75.4" [ref=e162] [box=339,1031,50,44]
+                  - cell "44053" [ref=e163] [box=389,1031,62,44]
+                  - cell "80688545" [ref=e164] [box=451,1031,103,44]
+                  - cell "81.1" [ref=e165] [box=555,1031,53,44]
+                - row "Iceland 28666 254830 78.1 42182 329425 82.8" [ref=e166] [box=49,1075,559,44]:
+                  - cell "Iceland" [ref=e167] [box=49,1075,129,44]
+                  - cell "28666" [ref=e168] [box=178,1075,62,44]
+                  - cell "254830" [ref=e169] [box=240,1075,99,44]
+                  - cell "78.1" [ref=e170] [box=339,1075,50,44]
+                  - cell "42182" [ref=e171] [box=389,1075,62,44]
+                  - cell "329425" [ref=e172] [box=451,1075,103,44]
+                  - cell "82.8" [ref=e173] [box=555,1075,53,44]
+                - row "India 1777 870601776 57.7 5903 1311050527 66.8" [ref=e174] [box=49,1119,559,44]:
+                  - cell "India" [ref=e175] [box=49,1119,129,44]
+                  - cell "1777" [ref=e176] [box=178,1119,62,44]
+                  - cell "870601776" [ref=e177] [box=240,1119,99,44]
+                  - cell "57.7" [ref=e178] [box=339,1119,50,44]
+                  - cell "5903" [ref=e179] [box=389,1119,62,44]
+                  - cell "1311050527" [ref=e180] [box=451,1119,103,44]
+                  - cell "66.8" [ref=e181] [box=555,1119,53,44]
+                - row "Japan 29550 122249285 79.1 36162 126573481 83.5" [ref=e182] [box=49,1163,559,44]:
+                  - cell "Japan" [ref=e183] [box=49,1163,129,44]
+                  - cell "29550" [ref=e184] [box=178,1163,62,44]
+                  - cell "122249285" [ref=e185] [box=240,1163,99,44]
+                  - cell "79.1" [ref=e186] [box=339,1163,50,44]
+                  - cell "36162" [ref=e187] [box=389,1163,62,44]
+                  - cell "126573481" [ref=e188] [box=451,1163,103,44]
+                  - cell "83.5" [ref=e189] [box=555,1163,53,44]
+                - row "North Korea 2076 20194354 67.9 1390 25155317 71.4" [ref=e190] [box=49,1207,559,44]:
+                  - cell "North Korea" [ref=e191] [box=49,1207,129,44]
+                  - cell "2076" [ref=e192] [box=178,1207,62,44]
+                  - cell "20194354" [ref=e193] [box=240,1207,99,44]
+                  - cell "67.9" [ref=e194] [box=339,1207,50,44]
+                  - cell "1390" [ref=e195] [box=389,1207,62,44]
+                  - cell "25155317" [ref=e196] [box=451,1207,103,44]
+                  - cell "71.4" [ref=e197] [box=555,1207,53,44]
+                - row "South Korea 12087 42972254 72 34644 50293439 80.7" [ref=e198] [box=49,1251,559,44]:
+                  - cell "South Korea" [ref=e199] [box=49,1251,129,44]
+                  - cell "12087" [ref=e200] [box=178,1251,62,44]
+                  - cell "42972254" [ref=e201] [box=240,1251,99,44]
+                  - cell "72" [ref=e202] [box=339,1251,50,44]
+                  - cell "34644" [ref=e203] [box=389,1251,62,44]
+                  - cell "50293439" [ref=e204] [box=451,1251,103,44]
+                  - cell "80.7" [ref=e205] [box=555,1251,53,44]
+                - row "New Zealand 24021 3397534 75.4 34186 4528526 80.6" [ref=e206] [box=49,1295,559,44]:
+                  - cell "New Zealand" [ref=e207] [box=49,1295,129,44]
+                  - cell "24021" [ref=e208] [box=178,1295,62,44]
+                  - cell "3397534" [ref=e209] [box=240,1295,99,44]
+                  - cell "75.4" [ref=e210] [box=339,1295,50,44]
+                  - cell "34186" [ref=e211] [box=389,1295,62,44]
+                  - cell "4528526" [ref=e212] [box=451,1295,103,44]
+                  - cell "80.6" [ref=e213] [box=555,1295,53,44]
+                - row "Norway 43296 4240375 76.8 64304 5210967 81.6" [ref=e214] [box=49,1339,559,44]:
+                  - cell "Norway" [ref=e215] [box=49,1339,129,44]
+                  - cell "43296" [ref=e216] [box=178,1339,62,44]
+                  - cell "4240375" [ref=e217] [box=240,1339,99,44]
+                  - cell "76.8" [ref=e218] [box=339,1339,50,44]
+                  - cell "64304" [ref=e219] [box=389,1339,62,44]
+                  - cell "5210967" [ref=e220] [box=451,1339,103,44]
+                  - cell "81.6" [ref=e221] [box=555,1339,53,44]
+                - row "Poland 10088 38195258 70.8 24787 38611794 77.3" [ref=e222] [box=49,1383,559,44]:
+                  - cell "Poland" [ref=e223] [box=49,1383,129,44]
+                  - cell "10088" [ref=e224] [box=178,1383,62,44]
+                  - cell "38195258" [ref=e225] [box=240,1383,99,44]
+                  - cell "70.8" [ref=e226] [box=339,1383,50,44]
+                  - cell "24787" [ref=e227] [box=389,1383,62,44]
+                  - cell "38611794" [ref=e228] [box=451,1383,103,44]
+                  - cell "77.3" [ref=e229] [box=555,1383,53,44]
+                - row "Russia 19349 147568552 69.6 23038 143456918 73.13" [ref=e230] [box=49,1427,559,44]:
+                  - cell "Russia" [ref=e231] [box=49,1427,129,44]
+                  - cell "19349" [ref=e232] [box=178,1427,62,44]
+                  - cell "147568552" [ref=e233] [box=240,1427,99,44]
+                  - cell "69.6" [ref=e234] [box=339,1427,50,44]
+                  - cell "23038" [ref=e235] [box=389,1427,62,44]
+                  - cell "143456918" [ref=e236] [box=451,1427,103,44]
+                  - cell "73.13" [ref=e237] [box=555,1427,53,44]
+                - row "Turkey 10670 53994605 67.3 19360 78665830 76.5" [ref=e238] [box=49,1471,559,44]:
+                  - cell "Turkey" [ref=e239] [box=49,1471,129,44]
+                  - cell "10670" [ref=e240] [box=178,1471,62,44]
+                  - cell "53994605" [ref=e241] [box=240,1471,99,44]
+                  - cell "67.3" [ref=e242] [box=339,1471,50,44]
+                  - cell "19360" [ref=e243] [box=389,1471,62,44]
+                  - cell "78665830" [ref=e244] [box=451,1471,103,44]
+                  - cell "76.5" [ref=e245] [box=555,1471,53,44]
+                - row "United Kingdom 26424 57110117 75.7 38225 64715810 81.4" [ref=e246] [box=49,1515,559,44]:
+                  - cell "United Kingdom" [ref=e247] [box=49,1515,129,44]
+                  - cell "26424" [ref=e248] [box=178,1515,62,44]
+                  - cell "57110117" [ref=e249] [box=240,1515,99,44]
+                  - cell "75.7" [ref=e250] [box=339,1515,50,44]
+                  - cell "38225" [ref=e251] [box=389,1515,62,44]
+                  - cell "64715810" [ref=e252] [box=451,1515,103,44]
+                  - cell "81.4" [ref=e253] [box=555,1515,53,44]
+                - row "United States 37062 252847810 75.4 53354 321773631 79.1" [ref=e254] [box=49,1559,559,44]:
+                  - cell "United States" [ref=e255] [box=49,1559,129,44]
+                  - cell "37062" [ref=e256] [box=178,1559,62,44]
+                  - cell "252847810" [ref=e257] [box=240,1559,99,44]
+                  - cell "75.4" [ref=e258] [box=339,1559,50,44]
+                  - cell "53354" [ref=e259] [box=389,1559,62,44]
+                  - cell "321773631" [ref=e260] [box=451,1559,103,44]
+                  - cell "79.1" [ref=e261] [box=555,1559,53,44]
+            - generic [ref=e263] [box=48,1618,264,124]:
+              - button "導入Excel" [ref=e264] [cursor=pointer] [box=53,1638,80,40]
+              - button "添加一行" [ref=e265] [cursor=pointer] [box=148,1638,74,40]
+              - button "添加一豎" [ref=e266] [cursor=pointer] [box=53,1700,74,40]
+              - button "清除數據" [ref=e267] [cursor=pointer] [box=142,1700,74,40]
+          - generic [ref=e268] [box=37,1084,301,414]:
+            - generic [ref=e269] [box=48,1095,279,186]:
+              - generic [ref=e270] [box=48,1095,269,27]: 附加信息內容[可選]：
+              - textbox "附加信息內容[可選]：" [ref=e271] [box=48,1127,279,34]:
+                - /placeholder: 輸入附加信息
+                - text: 數據來源：聚集工具
+              - generic [ref=e272] [box=48,1161,269,27]: 文字大小(px)：
+              - spinbutton "文字大小(px)：" [ref=e273] [box=48,1197,167,20]: "12"
+              - generic [ref=e274] [box=48,1220,269,27]: 文字顏色：
+              - textbox "文字顏色：" [ref=e275] [box=48,1252,50,27]: "#cbc3c3"
+            - generic [ref=e276] [box=48,1291,279,186]:
+              - generic [ref=e277] [box=48,1291,269,27]: 水印內容[可選]：
+              - textbox "水印內容[可選]：" [ref=e278] [box=48,1323,279,34]:
+                - /placeholder: 輸入水印內容
+                - text: 作者：hasgg.com
+              - generic [ref=e279] [box=48,1357,269,27]: 文字大小(px)：
+              - spinbutton "文字大小(px)：" [ref=e280] [box=48,1393,167,20]: "12"
+              - generic [ref=e281] [box=48,1416,269,27]: 文字顏色：
+              - textbox "文字顏色：" [ref=e282] [box=48,1448,50,27]: "#cbc3c3"
+        - generic [ref=e284] [box=32,1504,311,124]:
+          - button "生成圖表" [ref=e285] [cursor=pointer] [box=37,1524,74,40]
+          - button "下載圖表" [ref=e286] [cursor=pointer] [box=126,1524,74,40]
+          - button "清除所有" [ref=e287] [cursor=pointer] [box=216,1524,74,40]
+          - button "粘貼示例2" [ref=e288] [cursor=pointer] [box=37,1586,83,40]
+        - generic [ref=e289] [box=32,1640,311,1130]:
+          - generic [ref=e290] [box=52,1660,271,27]:
+            - checkbox "使用正交投影 自動旋轉" [ref=e291] [cursor=pointer] [box=57,1668,14,14]
+            - text: 使用正交投影
+            - checkbox [ref=e292] [cursor=pointer] [box=181,1668,14,14]
+            - text: 自動旋轉
+          - generic [ref=e293] [box=52,1692,271,54]:
+            - text: 視覺地圖最大值：
+            - spinbutton "視覺地圖最大值：" [ref=e294] [box=52,1723,167,20]: "1e8"
+          - generic [ref=e295] [box=52,1751,271,27]:
+            - text: 旋轉速度：
+            - spinbutton "旋轉速度：" [ref=e296] [box=127,1755,167,20]: "10"
+          - generic [ref=e297] [box=52,1783,271,56]:
+            - text: "柱體色開始: 例如 rgb(242, 195, 26)"
+            - 'textbox "柱體色開始: 例如 rgb(242, 195, 26)" [ref=e298] [box=52,1810,50,27]': "#e8d999"
+          - generic [ref=e299] [box=52,1844,271,56]:
+            - text: "柱體色結束: 例如 rgb(36, 183, 242)"
+            - 'textbox "柱體色結束: 例如 rgb(36, 183, 242)" [ref=e300] [box=52,1871,50,27]': "#b74149"
+        - generic [box=32,2794,311,0]:
+          - insertion [box=32,2794,311,0]:
+            - generic [box=32,2813,1200,0]:
+              - iframe [box=32,2813,1200,0]
+      - generic [ref=e305] [box=12,2863,351,1929]:
+        - paragraph [ref=e306] [box=32,2883,311,189]: 數據集 3D 柱狀圖製作工具是一個免費在線應用，可以輕鬆將數據可視化，創建專業且引人注目的三維柱狀圖。無論是用於商業分析、學術研究還是個人項目，您都可以快速導入數據，自定義樣式和布局，呈現清晰而富有影響力的圖表，助您更好地理解和展示數據，提升您的彙報水平。
+        - paragraph [box=32,3098,311,0]
+        - list [ref=e307] [box=62,3098,281,605]:
+          - listitem [ref=e308] [box=62,3098,281,54]: 圖表生成：根據用戶輸入的數據實時生成數據集 3D 柱狀圖。
+          - listitem [ref=e309] [box=62,3156,281,54]: 數據輸入：通過互動式表格錄入數據，簡單、直觀。
+          - listitem [ref=e310] [box=62,3213,281,27]: 數據導入：通過選擇Excel文件導入數據。
+          - listitem [ref=e311] [box=62,3244,281,54]: 自定義選項：允許用戶輸入標題、副標題，添加附加信息和水印。
+          - listitem [ref=e312] [box=62,3302,281,54]: 圖表下載：支持將生成的圖表下載為PNG格式圖片。
+          - listitem [ref=e313] [box=62,3360,281,54]: 圖例位置調整：可選擇圖例顯示的位置，包括左側、右側、頂部、底部和隱藏。
+          - listitem [ref=e314] [box=62,3417,281,54]: 數據添加和刪除：用戶可以靈活地添加或刪除數據項。
+          - listitem [ref=e315] [box=62,3475,281,54]: 自動生成：在頁面載入時自動生成一個示例數據集 3D 柱狀圖，方便用戶使用。
+          - listitem [ref=e316] [box=62,3533,281,54]: 實時預覽：實時查看數據變化對圖表的影響。
+          - listitem [ref=e317] [box=62,3591,281,54]: 清除功能：清除所有輸入的數據和選項，重新開始。
+          - listitem [ref=e318] [box=62,3648,281,54]: "全程本地處理: 純本地處理，完全安全，無需擔心隱私問題。"
+        - paragraph [box=32,3717,311,0]
+        - generic [box=32,3728,311,0]:
+          - insertion [box=32,3728,311,0]:
+            - generic [box=32,3747,1200,0]:
+              - iframe [box=32,3747,1200,0]
+        - paragraph [ref=e319] [box=32,3753,311,54]: 通過選擇Excel文件導入數據時Excel裡面的數據格式如下：
+        - img "數據集 3D 柱狀圖Excel數據格式示例圖" [ref=e321] [box=32,3833,311,154]
+        - generic [box=32,4005,311,0]:
+          - insertion [box=32,4005,311,0]:
+            - generic [box=32,4024,1200,0]:
+              - iframe [box=32,4024,1200,0]
+        - paragraph [ref=e322] [box=32,4015,311,27]: 可以添加多系列數據：
+        - generic [ref=e323] [box=32,4068,311,128]:
+          - img "數據集 3D 柱狀圖Excel多系列數據格式示例圖" [ref=e324] [box=32,4068,311,110]
+          - generic [box=32,4196,311,0]:
+            - insertion [box=32,4196,311,0]:
+              - generic [box=32,4215,1200,0]:
+                - iframe [box=32,4215,1200,0]
+        - paragraph [ref=e329] [box=32,4206,311,27]: 數據集 3D 柱狀圖製作工具示例圖：
+        - img "數據集 3D 柱狀圖製作工具示例圖" [ref=e331] [box=32,4258,311,202]
+        - paragraph [ref=e332] [box=32,4468,311,54]: 數據集 3D 柱狀圖製作工具示例圖，點擊粘貼按鈕2可以調試該圖。
+        - img "數據集 3D 柱狀圖工具示例圖" [ref=e334] [box=32,4547,311,202]
+      - generic [ref=e336] [box=32,4868,311,398]:
+        - banner [ref=e337] [box=32,4868,311,49]:
+          - heading "撰寫評論" [level=3] [ref=e338] [box=142,4868,91,26]:
+            - link "撰寫評論" [ref=e339] [cursor=pointer] [box=142,4868,91,26]:
+              - /url: "#comments"
+        - generic [ref=e340] [box=32,4927,311,314]:
+          - heading "Leave a Reply" [level=3] [ref=e341] [box=32,4927,311,18]: Leave a Reply
+          - generic [ref=e342] [box=32,4955,311,286]:
+            - paragraph [ref=e343] [box=32,4955,311,54]:
+              - text: Your email address will not be published.
+              - generic [ref=e344] [box=112,4958,230,47]: Required fields are marked *
+            - textbox "評論、意見或反饋" [ref=e345] [box=32,5035,311,100]
+            - paragraph [ref=e346] [box=32,5143,156,32]:
+              - generic [ref=e347] [box=32,5143,49,27]: Name *
+              - textbox "Name *" [ref=e348] [box=81,5148,93,18]
+            - paragraph [ref=e349] [box=188,5143,156,32]:
+              - generic [ref=e350] [box=188,5143,47,27]: Email *
+              - textbox "Email *" [ref=e351] [box=235,5148,93,18]
+            - paragraph [ref=e352] [box=32,5153,311,88]:
+              - button "提交" [ref=e353] [cursor=pointer] [box=88,5201,200,40]
+  - contentinfo [ref=e354] [box=0,5328,375,101]:
+    - generic [ref=e355] [box=0,5365,375,56]:
+      - paragraph [ref=e356] [box=0,5365,375,26]: Files:164 - Queries:0 - Time:0.039 - Mem:3.3769
+      - paragraph [ref=e357] [box=0,5396,375,26]:
+        - text: Copyright ©2026 保留所有權利
+        - link "聚集工具" [ref=e358] [cursor=pointer] [box=226,5400,52,17]:
+          - /url: https://www.hasgg.com/
+        - link "網站協議" [ref=e359] [cursor=pointer] [box=278,5400,48,17]:
+          - /url: https://www.hasgg.com/website-agreement
+  - generic [ref=e360] [cursor=pointer] [box=30,805,50,50]: 缘

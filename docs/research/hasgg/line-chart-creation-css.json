@@ -1,0 +1,100 @@
+{
+  "page": {
+    "url": "https://www.hasgg.com/line-chart-creation",
+    "title": "折線圖製作 - 聚集工具",
+    "description": "折線圖製作工具是一款免費在線工具，用戶可以輕鬆創建、定製和下載折線圖。支持多種主題和顏色選擇，用戶可以通過填寫數據或選擇Excel表格實時生成專業的圖表，適用於各種行業的數據可視化需求。"
+  },
+  "cssFrameworks": [
+    "bulma-css (//www.hasgg.com/wp-content/plugins/wnd-frontend/static/css/bulma.min.css?ver=0.9.72)",
+    "font-awesome-css (//www.hasgg.com/wp-content/plugins/wnd-frontend/static/css/font-awesome-all.min.css?ver=0.9.72)",
+    "style-css (//www.hasgg.com/wp-content/themes/wndt-master/style.css?ver=0.26.7)",
+    "prism-style-css (//www.hasgg.com/wp-content/themes/wndt-master/static/prism/prism.css?ver=6.6)"
+  ],
+  "navigation": {
+    "classes": ["navbar", "navbar-brand", "navbar-item", "navbar-link", "navbar-menu", "navbar-dropdown", "navbar-burger"],
+    "structure": {
+      "logo": {"src": "/wp-content/themes/wndt-master/static/images/hasgg.png", "alt": "聚集工具", "height": "100px", "width": "100px"},
+      "languageSwitch": {"src": "/wp-content/themes/wndt-master/static/images/jft5.webp", "width": "25px", "height": "25px"}
+    },
+    "menuCategories": ["金融理財", "數據圖表", "單位換算", "地理坐標", "文檔辦公", "文本處理", "站長開發", "圖片處理", "日常生活", "命理運勢"]
+  },
+  "mainContent": {
+    "heading": "折線圖製作工具",
+    "formFields": [
+      {"id": "title", "type": "text", "placeholder": "輸入標題", "defaultValue": "某網站流量來源"},
+      {"id": "subtitle", "type": "text", "placeholder": "輸入副標題", "defaultValue": "周流量折線圖"},
+      {"id": "dimension", "type": "text", "placeholder": "輸入統計維度", "defaultValue": "流量"},
+      {"id": "unit", "type": "text", "placeholder": "輸入計量單位", "defaultValue": "ip"}
+    ],
+    "dataEntry": {
+      "fileInput": {"id": "inputExcel", "accept": ".xlsx, .xls"},
+      "buttons": ["導入Excel", "添加一行", "添加一豎", "清除數據"]
+    },
+    "additionalOptions": [
+      {"id": "extraInfo", "type": "text", "placeholder": "輸入附加信息", "defaultValue": "數據來源：聚集工具"},
+      {"id": "extraInfoSize", "type": "number", "defaultValue": "12"},
+      {"id": "extraInfoColor", "type": "color", "defaultValue": "#CBC3C3"},
+      {"id": "watermark", "type": "text", "placeholder": "輸入水印內容", "defaultValue": "作者：hasgg.com"},
+      {"id": "watermarkSize", "type": "number", "defaultValue": "12"},
+      {"id": "watermarkColor", "type": "color", "defaultValue": "#CBC3C3"}
+    ],
+    "actionButtons": [
+      {"id": "generateChart", "text": "生成圖表", "class": "chineseconvert"},
+      {"id": "downloadChart", "text": "下載圖表", "class": "chinesecopy"},
+      {"id": "clearAll", "text": "清除所有", "class": "chineseclear"}
+    ],
+    "legendPosition": {
+      "name": "legendPosition",
+      "options": [
+        {"value": "left", "label": "左側"},
+        {"value": "right", "label": "右側", "checked": true},
+        {"value": "top", "label": "頂部"},
+        {"value": "bottom", "label": "底部"},
+        {"value": "hidden", "label": "隱藏"}
+      ]
+    },
+    "otherOptions": [
+      {"id": "showLabel", "label": "顯示數值標籤", "type": "checkbox"},
+      {"id": "smoothLine", "label": "曲線", "type": "checkbox"},
+      {"id": "stepLine", "label": "階梯圖", "type": "checkbox"},
+      {"id": "areaChart", "label": "基礎面積圖", "type": "checkbox"},
+      {"id": "stackedArea", "label": "堆疊面積圖", "type": "checkbox"},
+      {"id": "gradientColor", "label": "漸變色", "type": "checkbox"}
+    ]
+  },
+  "features": [
+    "圖表生成：根據用戶輸入的數據實時生成折線圖。",
+    "多主題支持：提供多種主題選擇以美化圖表外觀。",
+    "數據輸入：通過互動式表格錄入數據，簡單、直觀。",
+    "數據導入：通過選擇Excel文件導入數據。",
+    "折線曲線：支持選擇折線或曲線。",
+    "面積圖：支持選擇基礎面積圖或堆疊面積圖，同時可選漸變色。",
+    "自定義選項：允許用戶輸入標題、副標題、統計維度和計量單位，添加附加信息和水印。",
+    "圖表下載：支持將生成的圖表下載為PNG格式圖片。",
+    "圖例位置調整：可選擇圖例顯示的位置，包括左側、右側、頂部、底部和隱藏。",
+    "數據添加和刪除：用戶可以靈活地添加或刪除數據項。",
+    "自動生成：在頁面載入時自動生成一個示例折線圖，方便用戶使用。",
+    "實時預覽：實時查看數據變化對圖表的影響。",
+    "清除功能：清除所有輸入的數據和選項，重新開始。",
+    "全程本地處理: 純本地處理，完全安全，無需擔心隱私問題。"
+  ],
+  "instructions": {
+    "excelImport": "通過選擇Excel文件導入數據時Excel裡面的數據格式如下：",
+    "note": "表格中A1的數據是不讀取的可以隨便填寫。"
+  },
+  "images": [
+    {"src": "/wp-content/themes/wndt-master/static/images/hasgg.png", "alt": "聚集工具", "height": "100px", "width": "100px"},
+    {"src": "/wp-content/themes/wndt-master/static/images/jft5.webp", "alt": "", "width": "25px", "height": "25px"},
+    {"src": "/wp-content/themes/wndt-master/static/images/basic-stacked-bar-chart-creation-excel.png", "alt": "Excel數據格式示例圖"},
+    {"src": "/wp-content/themes/wndt-master/static/images/line-chart-creation.png", "alt": "折線圖製作工具示例圖"}
+  ],
+  "commentSection": {
+    "heading": "Leave a Reply",
+    "commentFields": ["comment", "author", "email"],
+    "submitButton": "提交"
+  },
+  "footer": {
+    "copyright": "Copyright ©2026 保留所有權利",
+    "links": ["聚集工具", "網站協議"]
+  }
+}

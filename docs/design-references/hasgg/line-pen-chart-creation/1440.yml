@@ -1,0 +1,213 @@
+- generic [active] [ref=e1] [box=0,0,390,5397]:
+  - navigation [ref=e4] [box=0,0,390,79]:
+    - generic [ref=e5] [box=0,0,390,79]:
+      - link "聚集工具" [ref=e8] [cursor=pointer] [box=12,17,48,61]:
+        - /url: https://www.hasgg.com
+        - img "聚集工具" [ref=e9] [box=12,17,48,48]
+      - link "聚集工具" [ref=e11] [cursor=pointer] [box=74,28,64,24]:
+        - /url: https://www.hasgg.com
+      - img [ref=e18] [cursor=pointer] [box=353,27,25,25]
+    - text:  
+  - generic [ref=e19] [box=0,80,390,5186]:
+    - navigation "breadcrumbs" [ref=e22] [box=12,100,342,18]:
+      - list [ref=e23] [box=12,100,342,18]:
+        - listitem [ref=e24] [box=12,100,33,18]:
+          - link "首頁" [ref=e25] [cursor=pointer] [box=12,100,33,18]:
+            - /url: https://www.hasgg.com
+        - listitem [ref=e26] [box=45,100,156,18]:
+          - text: /
+          - generic [box=51,100,150,18]: 可添加拐點的折線圖製作
+    - generic [ref=e28] [box=0,130,390,5126]:
+      - generic [ref=e29] [box=0,130,390,4706]:
+        - generic [ref=e30] [box=12,142,366,2425]:
+          - heading "可添加拐點的折線圖製作工具" [level=1] [ref=e32] [box=32,167,326,27]
+          - generic [ref=e33] [box=32,214,326,1274]:
+            - generic [ref=e34] [box=37,220,316,404]:
+              - generic [ref=e35] [box=48,231,294,66]:
+                - generic [ref=e36] [box=48,231,284,27]: 標題[可選]：
+                - textbox "標題[可選]：" [ref=e37] [box=48,263,294,34]:
+                  - /placeholder: 輸入標題
+                  - text: 點擊可添加拐點折線圖製作工具
+              - generic [ref=e38] [box=48,307,294,66]:
+                - generic [ref=e39] [box=48,307,284,27]: 副標題[可選]：
+                - textbox "副標題[可選]：" [ref=e40] [box=48,339,294,34]:
+                  - /placeholder: 輸入副標題
+                  - text: 點擊添加拐點
+              - generic [ref=e41] [box=48,383,294,66]:
+                - generic [ref=e42] [box=48,383,284,27]: 統計維度[可選]：
+                - textbox "統計維度[可選]：" [ref=e43] [box=48,415,294,34]:
+                  - /placeholder: 輸入統計維度
+              - generic [ref=e44] [box=48,459,294,66]:
+                - generic [ref=e45] [box=48,459,284,27]: 計量單位[可選]：
+                - textbox "計量單位[可選]：" [ref=e46] [box=48,491,294,34]:
+                  - /placeholder: 輸入計量單位
+              - generic [ref=e47] [box=48,535,294,68]:
+                - generic [ref=e48] [box=48,535,284,27]: 選擇主題[可選]：
+                - combobox "選擇主題[可選]：" [ref=e49] [box=48,567,294,36]:
+                  - option "默認" [selected] [box=0,0,0,0]
+                  - option "藍色" [box=0,0,0,0]
+                  - option "蜜蜂靈感" [box=0,0,0,0]
+                  - option "藍色" [box=0,0,0,0]
+                  - option "大篷車" [box=0,0,0,0]
+                  - option "鯉魚" [box=0,0,0,0]
+                  - option "酷" [box=0,0,0,0]
+                  - option "深色" [box=0,0,0,0]
+                  - option "深藍" [box=0,0,0,0]
+                  - option "深-黑" [box=0,0,0,0]
+                  - option "深色虎皮" [box=0,0,0,0]
+                  - option "深色鮮切" [box=0,0,0,0]
+                  - option "深蘑菇色" [box=0,0,0,0]
+                  - option "愛德華" [box=0,0,0,0]
+                  - option "森林" [box=0,0,0,0]
+                  - option "鮮切" [box=0,0,0,0]
+                  - option "水果" [box=0,0,0,0]
+                  - option "灰色" [box=0,0,0,0]
+                  - option "綠色" [box=0,0,0,0]
+                  - option "鶴望蘭" [box=0,0,0,0]
+                  - option "信息圖表" [box=0,0,0,0]
+                  - option "靈感" [box=0,0,0,0]
+                  - option "爵士" [box=0,0,0,0]
+                  - option "倫敦" [box=0,0,0,0]
+                  - option "馬卡龍" [box=0,0,0,0]
+                  - option "馬卡龍2" [box=0,0,0,0]
+                  - option "薄荷" [box=0,0,0,0]
+                  - option "包裝" [box=0,0,0,0]
+                  - option "紅色" [box=0,0,0,0]
+                  - option "紅色天鵝絨" [box=0,0,0,0]
+                  - option "羅馬" [box=0,0,0,0]
+                  - option "皇家" [box=0,0,0,0]
+                  - option "櫻花" [box=0,0,0,0]
+                  - option "光澤" [box=0,0,0,0]
+                  - option "科技藍" [box=0,0,0,0]
+                  - option "復古" [box=0,0,0,0]
+            - generic [ref=e50] [box=37,636,316,420]:
+              - generic [ref=e51] [box=48,647,284,54]:
+                - text: "*添加數據或："
+                - button "*添加數據或：" [ref=e52] [box=48,676,283,25]
+              - table [ref=e53] [box=48,706,294,265]:
+                - rowgroup [ref=e54] [box=49,707,293,44]:
+                  - row "數據 Line" [ref=e55] [box=49,707,293,44]:
+                    - columnheader "數據" [ref=e56] [box=49,707,160,44]
+                    - columnheader "Line" [ref=e57] [box=209,707,133,44]
+                - rowgroup [ref=e58] [box=49,751,293,220]:
+                  - row "15 0" [ref=e59] [box=49,751,293,44]:
+                    - cell "15" [ref=e60] [box=49,751,160,44]
+                    - cell "0" [ref=e61] [box=209,751,133,44]
+                  - row "-50 10" [ref=e62] [box=49,795,293,44]:
+                    - cell "-50" [ref=e63] [box=49,795,160,44]
+                    - cell "10" [ref=e64] [box=209,795,133,44]
+                  - row "-56.5 20" [ref=e65] [box=49,839,293,44]:
+                    - cell "-56.5" [ref=e66] [box=49,839,160,44]
+                    - cell "20" [ref=e67] [box=209,839,133,44]
+                  - row "-46.5 30" [ref=e68] [box=49,883,293,44]:
+                    - cell "-46.5" [ref=e69] [box=49,883,160,44]
+                    - cell "30" [ref=e70] [box=209,883,133,44]
+                  - row "-22.1 40" [ref=e71] [box=49,927,293,44]:
+                    - cell "-22.1" [ref=e72] [box=49,927,160,44]
+                    - cell "40" [ref=e73] [box=209,927,133,44]
+              - generic [ref=e75] [box=48,986,294,124]:
+                - button "導入Excel" [ref=e76] [cursor=pointer] [box=53,1006,80,40]
+                - button "添加一行" [ref=e77] [cursor=pointer] [box=148,1006,74,40]
+                - button "添加一豎" [ref=e78] [cursor=pointer] [box=238,1006,74,40]
+                - button "清除數據" [ref=e79] [cursor=pointer] [box=53,1068,74,40]
+            - generic [ref=e80] [box=37,1068,316,414]:
+              - generic [ref=e81] [box=48,1079,294,186]:
+                - generic [ref=e82] [box=48,1079,284,27]: 附加信息內容[可選]：
+                - textbox "附加信息內容[可選]：" [ref=e83] [box=48,1111,294,34]:
+                  - /placeholder: 輸入附加信息
+                  - text: 數據來源：聚集工具
+                - generic [ref=e84] [box=48,1145,284,27]: 文字大小(px)：
+                - spinbutton "文字大小(px)：" [ref=e85] [box=48,1181,171,20]: "12"
+                - generic [ref=e86] [box=48,1204,284,27]: 文字顏色：
+                - textbox "文字顏色：" [ref=e87] [box=48,1236,50,27]: "#cbc3c3"
+              - generic [ref=e88] [box=48,1275,294,186]:
+                - generic [ref=e89] [box=48,1275,284,27]: 水印內容[可選]：
+                - textbox "水印內容[可選]：" [ref=e90] [box=48,1307,294,34]:
+                  - /placeholder: 輸入水印內容
+                  - text: 作者：hasgg.com
+                - generic [ref=e91] [box=48,1341,284,27]: 文字大小(px)：
+                - spinbutton "文字大小(px)：" [ref=e92] [box=48,1377,171,20]: "12"
+                - generic [ref=e93] [box=48,1400,284,27]: 文字顏色：
+                - textbox "文字顏色：" [ref=e94] [box=48,1432,50,27]: "#cbc3c3"
+          - generic [ref=e96] [box=64,1488,263,62]:
+            - button "生成圖表" [ref=e97] [cursor=pointer] [box=69,1508,74,40]
+            - button "下載圖表" [ref=e98] [cursor=pointer] [box=158,1508,74,40]
+            - button "清除所有" [ref=e99] [cursor=pointer] [box=247,1508,74,40]
+          - generic [ref=e100] [box=32,1562,326,951]:
+            - generic [ref=e101] [box=52,1582,286,54]:
+              - text: 圖例位置：
+              - radio "圖例位置： 左側 右側 頂部 底部 隱藏" [ref=e102] [cursor=pointer] [box=132,1585,20,20]
+              - text: 左側
+              - radio [checked] [ref=e103] [cursor=pointer] [box=187,1585,20,20]
+              - text: 右側
+              - radio [ref=e104] [cursor=pointer] [box=242,1585,20,20]
+              - text: 頂部
+              - radio [ref=e105] [cursor=pointer] [box=297,1585,20,20]
+              - text: 底部
+              - radio [ref=e106] [cursor=pointer] [box=72,1612,20,20]
+              - text: 隱藏
+            - generic [ref=e107] [box=52,1641,286,27]:
+              - text: 點大小：
+              - spinbutton "點大小：" [ref=e108] [box=117,1645,171,20]: "20"
+          - generic [box=32,2537,326,0]:
+            - insertion [box=32,2537,326,0]:
+              - generic [box=32,2556,326,0]:
+                - iframe [box=32,2556,326,0]
+        - generic [ref=e112] [box=12,2591,366,1738]:
+          - paragraph [ref=e113] [box=32,2611,326,162]: 可添加拐點的折線圖製作工具是一個便利的在線平台，用戶可輕鬆創建可添加拐點的折線圖，點擊即可添加拐點。無論是用於數據分析、課堂教學還是項目展示，都能夠直觀地展示數據趨勢與波動。使用我們直觀的界面和功能，就能讓您的數據可視化變得簡單而有效！
+          - paragraph [box=32,2799,326,0]
+          - list [ref=e114] [box=62,2799,296,662]:
+            - listitem [ref=e115] [box=62,2799,296,54]: 圖表生成：根據用戶輸入的數據實時生成一個點擊即可添加拐點的折線圖。
+            - listitem [ref=e116] [box=62,2857,296,54]: 多主題支持：提供多種主題選擇以美化圖表外觀。
+            - listitem [ref=e117] [box=62,2914,296,54]: 數據輸入：通過互動式表格錄入數據，簡單、直觀。
+            - listitem [ref=e118] [box=62,2972,296,27]: 數據導入：通過選擇Excel文件導入數據。
+            - listitem [ref=e119] [box=62,3003,296,54]: 自定義選項：允許用戶輸入標題、副標題和計量單位，添加附加信息和水印。
+            - listitem [ref=e120] [box=62,3061,296,54]: 圖表下載：支持將生成的圖表下載為PNG格式圖片。
+            - listitem [ref=e121] [box=62,3118,296,54]: 圖例位置調整：可選擇圖例顯示的位置，包括左側、右側、頂部、底部和隱藏。
+            - listitem [ref=e122] [box=62,3176,296,54]: 數據添加和刪除：用戶可以靈活地添加或刪除數據項。
+            - listitem [ref=e123] [box=62,3234,296,54]: 自動生成：在頁面載入時自動生成一個示例可添加拐點的折線圖，方便用戶使用。
+            - listitem [ref=e124] [box=62,3292,296,54]: 實時預覽：實時查看數據變化對圖表的影響。
+            - listitem [ref=e125] [box=62,3349,296,54]: 清除功能：清除所有輸入的數據和選項，重新開始。
+            - listitem [ref=e126] [box=62,3407,296,54]: "全程本地處理: 純本地處理，完全安全，無需擔心隱私問題。"
+          - paragraph [box=32,3476,326,0]
+          - generic [box=32,3487,326,0]:
+            - insertion [box=32,3487,326,0]:
+              - generic [box=32,3506,326,0]:
+                - iframe [box=32,3506,326,0]
+          - paragraph [ref=e127] [box=32,3512,326,54]: 通過選擇Excel文件導入數據時Excel裡面的數據格式如下：
+          - img "可添加拐點的折線圖Excel數據格式示例圖" [ref=e129] [box=32,3592,326,170]
+          - paragraph [ref=e130] [box=32,3770,326,27]: 可添加拐點的折線圖製作工具示例圖：
+          - generic [ref=e131] [box=32,3822,326,477]:
+            - img "可添加拐點的折線圖製作工具示例圖2" [ref=e132] [box=32,3822,326,209]
+            - insertion [ref=e134] [box=32,4049,326,250]
+        - generic [ref=e137] [box=32,4405,326,399]:
+          - banner [ref=e138] [box=32,4405,326,49]:
+            - heading "撰寫評論" [level=3] [ref=e139] [box=149,4405,91,26]:
+              - link "撰寫評論" [ref=e140] [cursor=pointer] [box=149,4405,91,25]:
+                - /url: "#comments"
+          - generic [ref=e141] [box=32,4464,326,314]:
+            - heading "Leave a Reply" [level=3] [ref=e142] [box=32,4464,326,18]: Leave a Reply
+            - generic [ref=e143] [box=32,4492,326,286]:
+              - paragraph [ref=e144] [box=32,4492,326,54]:
+                - text: Your email address will not be published.
+                - generic [ref=e145] [box=126,4495,230,47]: Required fields are marked *
+              - textbox "評論、意見或反饋" [ref=e146] [box=32,4572,326,100]
+              - paragraph [ref=e147] [box=32,4681,163,32]:
+                - generic [ref=e148] [box=32,4681,49,27]: Name *
+                - textbox "Name *" [ref=e149] [box=81,4685,98,18]
+              - paragraph [ref=e150] [box=195,4681,163,32]:
+                - generic [ref=e151] [box=195,4681,47,27]: Email *
+                - textbox "Email *" [ref=e152] [box=242,4685,98,18]
+              - paragraph [ref=e153] [box=32,4691,326,88]:
+                - button "提交" [ref=e154] [cursor=pointer] [box=95,4738,200,40]
+      - insertion [ref=e156] [box=0,4866,390,390]
+  - contentinfo [ref=e158] [box=0,5296,390,101]:
+    - generic [ref=e159] [box=0,5333,390,56]:
+      - paragraph [ref=e160] [box=0,5333,390,26]: Files:164 - Queries:0 - Time:0.027 - Mem:3.1484
+      - paragraph [ref=e161] [box=0,5363,390,26]:
+        - text: Copyright ©2026 保留所有權利
+        - link "聚集工具" [ref=e162] [cursor=pointer] [box=233,5367,52,17]:
+          - /url: https://www.hasgg.com/
+        - link "網站協議" [ref=e163] [cursor=pointer] [box=285,5367,48,17]:
+          - /url: https://www.hasgg.com/website-agreement
+  - generic [ref=e164] [cursor=pointer] [box=30,805,50,50]: 缘

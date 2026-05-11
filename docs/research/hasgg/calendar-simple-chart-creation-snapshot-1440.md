@@ -1,0 +1,349 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "聚集工具" [ref=e8] [cursor=pointer]:
+        - /url: https://www.hasgg.com
+        - img "聚集工具" [ref=e9]
+      - link "聚集工具" [ref=e11] [cursor=pointer]:
+        - /url: https://www.hasgg.com
+      - img [ref=e18] [cursor=pointer]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - link "金融理財" [ref=e22] [cursor=pointer]:
+          - /url: https://www.hasgg.com/financial-management
+        - link "數據圖表" [ref=e24] [cursor=pointer]:
+          - /url: https://www.hasgg.com/data-chart
+        - link "單位換算" [ref=e26] [cursor=pointer]:
+          - /url: https://www.hasgg.com/unit-conversion
+        - link "地理坐標" [ref=e28] [cursor=pointer]:
+          - /url: https://www.hasgg.com/geographic-coordinates
+        - link "文檔辦公" [ref=e30] [cursor=pointer]:
+          - /url: https://www.hasgg.com/document-office
+        - link "文本處理" [ref=e32] [cursor=pointer]:
+          - /url: https://www.hasgg.com/text-processing
+        - link "站長開發" [ref=e34] [cursor=pointer]:
+          - /url: https://www.hasgg.com/webmaster-development
+        - link "圖片處理" [ref=e36] [cursor=pointer]:
+          - /url: https://www.hasgg.com/image-processing
+        - link "日常生活" [ref=e38] [cursor=pointer]:
+          - /url: https://www.hasgg.com/daily-life
+        - link "命理運勢" [ref=e40] [cursor=pointer]:
+          - /url: https://www.hasgg.com/numerology-horoscope
+      - generic [ref=e41]:
+        - generic [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: 
+          - text: 搜索
+        - generic [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: 
+          - text: 登錄 / 註冊
+  - generic [ref=e48]:
+    - navigation "breadcrumbs" [ref=e51]:
+      - list [ref=e52]:
+        - listitem [ref=e53]:
+          - link "首頁" [ref=e54] [cursor=pointer]:
+            - /url: https://www.hasgg.com
+        - listitem [ref=e55]:
+          - text: /
+          - generic: 標籤右部對齊散點圖製作
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - heading "標籤右部對齊散點圖製作工具" [level=1] [ref=e61]
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: 標題[可選]：
+              - textbox "標題[可選]：" [ref=e66]:
+                - /placeholder: 輸入標題
+                - text: 散點圖標籤右部對齊
+            - generic [ref=e67]:
+              - generic [ref=e68]: 副標題[可選]：
+              - textbox "副標題[可選]：" [ref=e69]:
+                - /placeholder: 輸入副標題
+                - text: 各國平均壽命和國內生產總值
+            - generic [ref=e70]:
+              - generic [ref=e71]: 統計維度[可選]：
+              - textbox "統計維度[可選]：" [ref=e72]:
+                - /placeholder: 輸入統計維度
+            - generic [ref=e73]:
+              - generic [ref=e74]: 軸計量單位[可選]：
+              - textbox "軸計量單位[可選]：" [ref=e75]:
+                - /placeholder: 輸入計量單位
+            - generic [ref=e76]:
+              - generic [ref=e77]: 選擇主題[可選]：
+              - combobox "選擇主題[可選]：" [ref=e78]:
+                - option "默認" [selected]
+                - option "藍色"
+                - option "蜜蜂靈感"
+                - option "藍色"
+                - option "大篷車"
+                - option "鯉魚"
+                - option "酷"
+                - option "深色"
+                - option "深藍"
+                - option "深-黑"
+                - option "深色虎皮"
+                - option "深色鮮切"
+                - option "深蘑菇色"
+                - option "愛德華"
+                - option "森林"
+                - option "鮮切"
+                - option "水果"
+                - option "灰色"
+                - option "綠色"
+                - option "鶴望蘭"
+                - option "信息圖表"
+                - option "靈感"
+                - option "爵士"
+                - option "倫敦"
+                - option "馬卡龍"
+                - option "馬卡龍2"
+                - option "薄荷"
+                - option "包裝"
+                - option "紅色"
+                - option "紅色天鵝絨"
+                - option "羅馬"
+                - option "皇家"
+                - option "櫻花"
+                - option "光澤"
+                - option "科技藍"
+                - option "復古"
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - text: "*添加數據或："
+              - button "*添加數據或：" [ref=e81]
+            - table [ref=e82]:
+              - rowgroup [ref=e83]:
+                - row "數據 1990" [ref=e84]:
+                  - columnheader "數據" [ref=e85]
+                  - columnheader [ref=e86]
+                  - columnheader [ref=e87]
+                  - columnheader "1990" [ref=e88]
+              - rowgroup [ref=e89]:
+                - row "Australia 28604 17096869 77" [ref=e90]:
+                  - cell "Australia" [ref=e91]
+                  - cell "28604" [ref=e92]
+                  - cell "17096869" [ref=e93]
+                  - cell "77" [ref=e94]
+                - row "Canada 31163 27662440 77.4" [ref=e95]:
+                  - cell "Canada" [ref=e96]
+                  - cell "31163" [ref=e97]
+                  - cell "27662440" [ref=e98]
+                  - cell "77.4" [ref=e99]
+                - row "China 1516 1154605773 68" [ref=e100]:
+                  - cell "China" [ref=e101]
+                  - cell "1516" [ref=e102]
+                  - cell "1154605773" [ref=e103]
+                  - cell "68" [ref=e104]
+                - row "Cuba 13670 10582082 74.7" [ref=e105]:
+                  - cell "Cuba" [ref=e106]
+                  - cell "13670" [ref=e107]
+                  - cell "10582082" [ref=e108]
+                  - cell "74.7" [ref=e109]
+                - row "Finland 28599 4986705 75" [ref=e110]:
+                  - cell "Finland" [ref=e111]
+                  - cell "28599" [ref=e112]
+                  - cell "4986705" [ref=e113]
+                  - cell "75" [ref=e114]
+                - row "France 29476 56943299 77.1" [ref=e115]:
+                  - cell "France" [ref=e116]
+                  - cell "29476" [ref=e117]
+                  - cell "56943299" [ref=e118]
+                  - cell "77.1" [ref=e119]
+                - row "Germany 31476 78958237 75.4" [ref=e120]:
+                  - cell "Germany" [ref=e121]
+                  - cell "31476" [ref=e122]
+                  - cell "78958237" [ref=e123]
+                  - cell "75.4" [ref=e124]
+                - row "Iceland 28666 254830 78.1" [ref=e125]:
+                  - cell "Iceland" [ref=e126]
+                  - cell "28666" [ref=e127]
+                  - cell "254830" [ref=e128]
+                  - cell "78.1" [ref=e129]
+                - row "India 1777 870601776 57.7" [ref=e130]:
+                  - cell "India" [ref=e131]
+                  - cell "1777" [ref=e132]
+                  - cell "870601776" [ref=e133]
+                  - cell "57.7" [ref=e134]
+                - row "Japan 29550 122249285 79.1" [ref=e135]:
+                  - cell "Japan" [ref=e136]
+                  - cell "29550" [ref=e137]
+                  - cell "122249285" [ref=e138]
+                  - cell "79.1" [ref=e139]
+                - row "North Korea 2076 20194354 67.9" [ref=e140]:
+                  - cell "North Korea" [ref=e141]
+                  - cell "2076" [ref=e142]
+                  - cell "20194354" [ref=e143]
+                  - cell "67.9" [ref=e144]
+                - row "South Korea 12087 42972254 72" [ref=e145]:
+                  - cell "South Korea" [ref=e146]
+                  - cell "12087" [ref=e147]
+                  - cell "42972254" [ref=e148]
+                  - cell "72" [ref=e149]
+                - row "New Zealand 24021 3397534 75.4" [ref=e150]:
+                  - cell "New Zealand" [ref=e151]
+                  - cell "24021" [ref=e152]
+                  - cell "3397534" [ref=e153]
+                  - cell "75.4" [ref=e154]
+                - row "Norway 43296 4240375 76.8" [ref=e155]:
+                  - cell "Norway" [ref=e156]
+                  - cell "43296" [ref=e157]
+                  - cell "4240375" [ref=e158]
+                  - cell "76.8" [ref=e159]
+                - row "Poland 10088 38195258 70.8" [ref=e160]:
+                  - cell "Poland" [ref=e161]
+                  - cell "10088" [ref=e162]
+                  - cell "38195258" [ref=e163]
+                  - cell "70.8" [ref=e164]
+                - row "Russia 19349 147568552 69.6" [ref=e165]:
+                  - cell "Russia" [ref=e166]
+                  - cell "19349" [ref=e167]
+                  - cell "147568552" [ref=e168]
+                  - cell "69.6" [ref=e169]
+                - row "Turkey 10670 53994605 67.3" [ref=e170]:
+                  - cell "Turkey" [ref=e171]
+                  - cell "10670" [ref=e172]
+                  - cell "53994605" [ref=e173]
+                  - cell "67.3" [ref=e174]
+                - row "United Kingdom 26424 57110117 75.7" [ref=e175]:
+                  - cell "United Kingdom" [ref=e176]
+                  - cell "26424" [ref=e177]
+                  - cell "57110117" [ref=e178]
+                  - cell "75.7" [ref=e179]
+                - row "United States 37062 252847810 75.4" [ref=e180]:
+                  - cell "United States" [ref=e181]
+                  - cell "37062" [ref=e182]
+                  - cell "252847810" [ref=e183]
+                  - cell "75.4" [ref=e184]
+            - generic [ref=e186]:
+              - button "導入Excel" [ref=e187] [cursor=pointer]
+              - button "添加一行" [ref=e188] [cursor=pointer]
+              - button "添加一豎" [ref=e189] [cursor=pointer]
+              - button "清除數據" [ref=e190] [cursor=pointer]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e193]: 附加信息內容[可選]：
+              - textbox "附加信息內容[可選]：" [ref=e194]:
+                - /placeholder: 輸入附加信息
+                - text: 數據來源：聚集工具
+              - generic [ref=e195]: 文字大小(px)：
+              - spinbutton "文字大小(px)：" [ref=e196]: "12"
+              - generic [ref=e197]: 文字顏色：
+              - textbox "文字顏色：" [ref=e198]: "#cbc3c3"
+            - generic [ref=e199]:
+              - generic [ref=e200]: 水印內容[可選]：
+              - textbox "水印內容[可選]：" [ref=e201]:
+                - /placeholder: 輸入水印內容
+                - text: 作者：hasgg.com
+              - generic [ref=e202]: 文字大小(px)：
+              - spinbutton "文字大小(px)：" [ref=e203]: "12"
+              - generic [ref=e204]: 文字顏色：
+              - textbox "文字顏色：" [ref=e205]: "#cbc3c3"
+        - generic [ref=e207]:
+          - button "生成圖表" [ref=e208] [cursor=pointer]
+          - button "下載圖表" [ref=e209] [cursor=pointer]
+          - button "清除所有" [ref=e210] [cursor=pointer]
+          - button "粘貼示例" [ref=e211] [cursor=pointer]
+          - button "粘貼示例2" [ref=e212] [cursor=pointer]
+          - button "粘貼示例3" [ref=e213] [cursor=pointer]
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - text: 圖例位置：
+            - radio "圖例位置： 左側 右側 頂部 底部 隱藏" [ref=e216] [cursor=pointer]
+            - text: 左側
+            - radio [checked] [ref=e217] [cursor=pointer]
+            - text: 右側
+            - radio [ref=e218] [cursor=pointer]
+            - text: 頂部
+            - radio [ref=e219] [cursor=pointer]
+            - text: 底部
+            - radio [ref=e220] [cursor=pointer]
+            - text: 隱藏
+          - generic [ref=e221]:
+            - text: "背景色開始: 例如 RGB(247, 248, 250)"
+            - 'textbox "背景色開始: 例如 RGB(247, 248, 250)" [ref=e222]': "#ffffff"
+          - generic [ref=e223]:
+            - text: "背景色結束: 例如 RGB(205, 208, 213)"
+            - 'textbox "背景色結束: 例如 RGB(205, 208, 213)" [ref=e224]': "#ffffff"
+          - generic [ref=e225]:
+            - checkbox "顯示網格 散點大小基數： 5e2 *氣泡大小自動根據第三列的數據調整。" [ref=e226] [cursor=pointer]
+            - text: 顯示網格
+            - generic [ref=e227]:
+              - text: 散點大小基數：
+              - spinbutton "散點大小基數：" [ref=e228]: "5e2"
+            - generic [ref=e229]: "*氣泡大小自動根據第三列的數據調整。"
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+      - generic [ref=e233]:
+        - paragraph [ref=e234]: 標籤右部對齊散點圖製作工具是一個免費在線應用，支持創建精美的標籤在右部的散點圖，為您的數據可視化增添直觀的表達。適用於各類數據分析與展示場景，助您有效傳遞信息與洞察。
+        - paragraph
+        - list [ref=e235]:
+          - listitem [ref=e236]: 圖表生成：根據用戶輸入的數據實時標籤在右部的散點圖。
+          - listitem [ref=e237]: 數據輸入：通過互動式表格錄入數據，簡單、直觀。
+          - listitem [ref=e238]: 數據導入：通過選擇Excel文件導入數據。
+          - listitem [ref=e239]: 自定義選項：允許用戶輸入標題、副標題，添加附加信息和水印。
+          - listitem [ref=e240]: 圖表下載：支持將生成的圖表下載為PNG格式圖片。
+          - listitem [ref=e241]: 圖例位置調整：可選擇圖例顯示的位置，包括左側、右側、頂部、底部和隱藏。
+          - listitem [ref=e242]: 數據添加和刪除：用戶可以靈活地添加或刪除數據項。
+          - listitem [ref=e243]: 自動生成：在頁面載入時自動生成一個示例標籤在右部的散點圖，方便用戶使用。
+          - listitem [ref=e244]: 實時預覽：實時查看數據變化對圖表的影響。
+          - listitem [ref=e245]: 清除功能：清除所有輸入的數據和選項，重新開始。
+          - listitem [ref=e246]: "全程本地處理: 純本地處理，完全安全，無需擔心隱私問題。"
+        - paragraph
+        - paragraph [ref=e247]: 通過選擇Excel文件導入數據時Excel裡面的數據格式如下：
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+        - img "標籤右部對齊散點圖Excel數據格式示例圖" [ref=e249]
+        - paragraph [ref=e250]: 可以添加多系列數據：
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+        - generic [ref=e251]:
+          - img "標籤右部對齊散點圖Excel多系列數據格式示例圖" [ref=e252]
+          - generic:
+            - insertion:
+              - generic:
+                - iframe
+        - img "標籤右部對齊散點圖Excel多系列數據格式示例圖" [ref=e258]
+        - paragraph [ref=e259]: 標籤右部對齊散點圖製作工具示例圖：
+        - img "標籤右部對齊散點圖製作工具示例圖" [ref=e261]
+        - paragraph [ref=e262]: 多系列數據標籤右部對齊散點圖製作工具示例圖，點擊粘貼按鈕2/3可以調試該圖。
+        - img "多系列數據標籤右部對齊散點圖工具示例圖" [ref=e264]
+        - img "多系列數據標籤右部對齊散點圖工具示例圖" [ref=e266]
+        - heading "標籤頂部對齊散點圖製作" [level=3] [ref=e269]:
+          - link "標籤頂部對齊散點圖製作" [ref=e270] [cursor=pointer]:
+            - /url: https://www.hasgg.com/scatter-label-top
+      - generic [ref=e272]:
+        - banner [ref=e273]:
+          - heading "撰寫評論" [level=3] [ref=e274]:
+            - link "撰寫評論" [ref=e275] [cursor=pointer]:
+              - /url: "#comments"
+        - generic [ref=e276]:
+          - heading "Leave a Reply" [level=3] [ref=e277]: Leave a Reply
+          - generic [ref=e278]:
+            - paragraph [ref=e279]:
+              - text: Your email address will not be published.
+              - generic [ref=e280]: Required fields are marked *
+            - textbox "評論、意見或反饋" [ref=e281]
+            - paragraph [ref=e282]:
+              - generic [ref=e283]: Name *
+              - textbox "Name *" [ref=e284]
+            - paragraph [ref=e285]:
+              - generic [ref=e286]: Email *
+              - textbox "Email *" [ref=e287]
+            - paragraph [ref=e288]:
+              - button "提交" [ref=e289] [cursor=pointer]
+  - contentinfo [ref=e290]:
+    - generic [ref=e291]:
+      - paragraph [ref=e292]: Files:164 - Queries:0 - Time:0.033 - Mem:3.3275
+      - paragraph [ref=e293]:
+        - text: Copyright ©2026 保留所有權利
+        - link "聚集工具" [ref=e294] [cursor=pointer]:
+          - /url: https://www.hasgg.com/
+        - link "網站協議" [ref=e295] [cursor=pointer]:
+          - /url: https://www.hasgg.com/website-agreement
+  - generic [ref=e296] [cursor=pointer]: 缘

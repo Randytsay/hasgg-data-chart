@@ -1,0 +1,222 @@
+- generic [active] [ref=e1] [box=0,0,1440,3387]:
+  - navigation [ref=e4] [box=48,0,1344,80]:
+    - generic [ref=e5] [box=-92,0,267,80]:
+      - link "聚集工具" [ref=e8] [cursor=pointer] [box=-80,16,48,64]:
+        - /url: https://www.hasgg.com
+        - img "聚集工具" [ref=e9] [box=-80,16,48,48]
+      - link "聚集工具" [ref=e11] [cursor=pointer] [box=-18,25,80,30]:
+        - /url: https://www.hasgg.com
+      - img [ref=e18] [cursor=pointer] [box=138,28,25,25]
+    - generic [ref=e19] [box=175,0,1360,80]:
+      - generic [ref=e20] [box=175,0,1160,80]:
+        - link "金融理財" [ref=e22] [cursor=pointer] [box=175,0,116,80]:
+          - /url: https://www.hasgg.com/financial-management
+        - link "數據圖表" [ref=e24] [cursor=pointer] [box=291,0,116,80]:
+          - /url: https://www.hasgg.com/data-chart
+        - link "單位換算" [ref=e26] [cursor=pointer] [box=407,0,116,80]:
+          - /url: https://www.hasgg.com/unit-conversion
+        - link "地理坐標" [ref=e28] [cursor=pointer] [box=523,0,116,80]:
+          - /url: https://www.hasgg.com/geographic-coordinates
+        - link "文檔辦公" [ref=e30] [cursor=pointer] [box=639,0,116,80]:
+          - /url: https://www.hasgg.com/document-office
+        - link "文本處理" [ref=e32] [cursor=pointer] [box=755,0,116,80]:
+          - /url: https://www.hasgg.com/text-processing
+        - link "站長開發" [ref=e34] [cursor=pointer] [box=871,0,116,80]:
+          - /url: https://www.hasgg.com/webmaster-development
+        - link "圖片處理" [ref=e36] [cursor=pointer] [box=987,0,116,80]:
+          - /url: https://www.hasgg.com/image-processing
+        - link "日常生活" [ref=e38] [cursor=pointer] [box=1103,0,116,80]:
+          - /url: https://www.hasgg.com/daily-life
+        - link "命理運勢" [ref=e40] [cursor=pointer] [box=1219,0,116,80]:
+          - /url: https://www.hasgg.com/numerology-horoscope
+      - generic [ref=e41] [box=1335,0,200,80]:
+        - generic [ref=e42] [cursor=pointer] [box=1335,0,77,80]:
+          - generic [ref=e44] [box=1347,32,16,16]: 
+          - text: 搜索
+        - generic [ref=e45] [cursor=pointer] [box=1412,0,123,80]:
+          - generic [ref=e47] [box=1425,32,14,16]: 
+          - text: 登錄 / 註冊
+  - generic [ref=e48] [box=48,81,1344,3175]:
+    - navigation "breadcrumbs" [ref=e51] [box=60,101,1296,18]:
+      - list [ref=e52] [box=60,101,1296,18]:
+        - listitem [ref=e53] [box=60,101,33,18]:
+          - link "首頁" [ref=e54] [cursor=pointer] [box=60,101,33,18]:
+            - /url: https://www.hasgg.com
+        - listitem [ref=e55] [box=93,101,84,18]:
+          - text: /
+          - generic [box=99,101,78,18]: 日曆圖製作
+    - generic [ref=e58] [box=48,131,1384,3125]:
+      - generic [ref=e59] [box=60,143,1360,1441]:
+        - heading "日曆圖製作工具" [level=1] [ref=e61] [box=80,168,1320,27]
+        - generic [ref=e62] [box=80,215,1320,420]:
+          - generic [ref=e63] [box=85,215,430,420]:
+            - generic [ref=e64] [box=96,226,408,66]:
+              - generic [ref=e65] [box=96,226,398,27]: 標題[可選]：
+              - textbox "標題[可選]：" [ref=e66] [box=96,258,408,34]:
+                - /placeholder: 輸入標題
+                - text: 日曆圖
+            - generic [ref=e67] [box=96,302,408,66]:
+              - generic [ref=e68] [box=96,302,398,27]: 副標題[可選]：
+              - textbox "副標題[可選]：" [ref=e69] [box=96,334,408,34]:
+                - /placeholder: 輸入副標題
+                - text: 日曆圖
+            - generic [ref=e70] [box=96,378,408,66]:
+              - generic [ref=e71] [box=96,378,398,27]: 統計維度[可選]：
+              - textbox "統計維度[可選]：" [ref=e72] [box=96,410,408,34]:
+                - /placeholder: 輸入統計維度
+            - generic [ref=e73] [box=96,454,408,66]:
+              - generic [ref=e74] [box=96,454,398,27]: 計量單位[可選]：
+              - textbox "計量單位[可選]：" [ref=e75] [box=96,486,408,34]:
+                - /placeholder: 輸入計量單位
+            - generic [ref=e76] [box=96,530,408,68]:
+              - generic [ref=e77] [box=96,530,398,27]: 選擇主題[可選]：
+              - combobox "選擇主題[可選]：" [ref=e78] [box=96,562,408,36]:
+                - option "默認" [selected] [box=0,0,0,0]
+                - option "藍色" [box=0,0,0,0]
+                - option "蜜蜂靈感" [box=0,0,0,0]
+                - option "藍色" [box=0,0,0,0]
+                - option "大篷車" [box=0,0,0,0]
+                - option "鯉魚" [box=0,0,0,0]
+                - option "酷" [box=0,0,0,0]
+                - option "深色" [box=0,0,0,0]
+                - option "深藍" [box=0,0,0,0]
+                - option "深-黑" [box=0,0,0,0]
+                - option "深色虎皮" [box=0,0,0,0]
+                - option "深色鮮切" [box=0,0,0,0]
+                - option "深蘑菇色" [box=0,0,0,0]
+                - option "愛德華" [box=0,0,0,0]
+                - option "森林" [box=0,0,0,0]
+                - option "鮮切" [box=0,0,0,0]
+                - option "水果" [box=0,0,0,0]
+                - option "灰色" [box=0,0,0,0]
+                - option "綠色" [box=0,0,0,0]
+                - option "鶴望蘭" [box=0,0,0,0]
+                - option "信息圖表" [box=0,0,0,0]
+                - option "靈感" [box=0,0,0,0]
+                - option "爵士" [box=0,0,0,0]
+                - option "倫敦" [box=0,0,0,0]
+                - option "馬卡龍" [box=0,0,0,0]
+                - option "馬卡龍2" [box=0,0,0,0]
+                - option "薄荷" [box=0,0,0,0]
+                - option "包裝" [box=0,0,0,0]
+                - option "紅色" [box=0,0,0,0]
+                - option "紅色天鵝絨" [box=0,0,0,0]
+                - option "羅馬" [box=0,0,0,0]
+                - option "皇家" [box=0,0,0,0]
+                - option "櫻花" [box=0,0,0,0]
+                - option "光澤" [box=0,0,0,0]
+                - option "科技藍" [box=0,0,0,0]
+                - option "復古" [box=0,0,0,0]
+          - generic [ref=e79] [box=525,215,430,420]:
+            - generic [ref=e80] [box=536,226,398,27]:
+              - text: "*添加數據或："
+              - button "*添加數據或：" [ref=e81] [box=634,228,283,25]
+            - table [ref=e82] [box=536,258,408,353]:
+              - rowgroup [ref=e83] [box=537,259,407,44]:
+                - row "數據 Line" [ref=e84] [box=537,259,407,44]:
+                  - columnheader "數據" [ref=e85] [box=537,259,203,44]
+                  - columnheader "Line" [ref=e86] [box=739,259,204,44]
+              - rowgroup [ref=e87] [box=537,303,407,308]:
+                - row [ref=e88] [box=537,303,407,44]:
+                  - cell [ref=e89] [box=537,303,203,44]
+                  - cell [ref=e90] [box=739,303,204,44]
+                - row [ref=e91] [box=537,347,407,44]:
+                  - cell [ref=e92] [box=537,347,203,44]
+                  - cell [ref=e93] [box=739,347,204,44]
+                - row [ref=e94] [box=537,391,407,44]:
+                  - cell [ref=e95] [box=537,391,203,44]
+                  - cell [ref=e96] [box=739,391,204,44]
+                - row [ref=e97] [box=537,435,407,44]:
+                  - cell [ref=e98] [box=537,435,203,44]
+                  - cell [ref=e99] [box=739,435,204,44]
+                - row [ref=e100] [box=537,479,407,44]:
+                  - cell [ref=e101] [box=537,479,203,44]
+                  - cell [ref=e102] [box=739,479,204,44]
+                - row [ref=e103] [box=537,523,407,44]:
+                  - cell [ref=e104] [box=537,523,203,44]
+                  - cell [ref=e105] [box=739,523,204,44]
+                - row [ref=e106] [box=537,567,407,44]:
+                  - cell [ref=e107] [box=537,567,203,44]
+                  - cell [ref=e108] [box=739,567,204,44]
+            - generic [ref=e110] [box=561,626,358,62]:
+              - button "導入Excel" [ref=e111] [cursor=pointer] [box=566,646,80,40]
+              - button "添加一行" [ref=e112] [cursor=pointer] [box=661,646,74,40]
+              - button "添加一豎" [ref=e113] [cursor=pointer] [box=751,646,74,40]
+              - button "清除數據" [ref=e114] [cursor=pointer] [box=840,646,74,40]
+          - generic [ref=e115] [box=965,215,430,420]:
+            - generic [ref=e116] [box=976,226,408,186]:
+              - generic [ref=e117] [box=976,226,398,27]: 附加信息內容[可選]：
+              - textbox "附加信息內容[可選]：" [ref=e118] [box=976,258,408,34]:
+                - /placeholder: 輸入附加信息
+                - text: 數據來源：聚集工具
+              - generic [ref=e119] [box=976,292,398,27]: 文字大小(px)：
+              - spinbutton "文字大小(px)：" [ref=e120] [box=976,328,171,20]: "12"
+              - generic [ref=e121] [box=976,351,398,27]: 文字顏色：
+              - textbox "文字顏色：" [ref=e122] [box=976,383,50,27]: "#cbc3c3"
+            - generic [ref=e123] [box=976,422,408,186]:
+              - generic [ref=e124] [box=976,422,398,27]: 水印內容[可選]：
+              - textbox "水印內容[可選]：" [ref=e125] [box=976,454,408,34]:
+                - /placeholder: 輸入水印內容
+                - text: 作者：hasgg.com
+              - generic [ref=e126] [box=976,488,398,27]: 文字大小(px)：
+              - spinbutton "文字大小(px)：" [ref=e127] [box=976,524,171,20]: "12"
+              - generic [ref=e128] [box=976,547,398,27]: 文字顏色：
+              - textbox "文字顏色：" [ref=e129] [box=976,579,50,27]: "#cbc3c3"
+        - generic [ref=e131] [box=609,635,263,62]:
+          - button "生成圖表" [ref=e132] [cursor=pointer] [box=614,655,74,40]
+          - button "下載圖表" [ref=e133] [cursor=pointer] [box=703,655,74,40]
+          - button "清除所有" [ref=e134] [cursor=pointer] [box=792,655,74,40]
+        - generic [ref=e135] [box=80,709,1320,831]:
+          - generic [ref=e136] [box=100,729,1280,34]:
+            - text: 輸入年份：
+            - textbox "輸入年份：" [ref=e137] [box=175,729,300,34]:
+              - /placeholder: Enter year (e.g., 2024)
+              - text: "2024"
+          - generic [ref=e138] [box=100,768,1280,27]:
+            - text: 高度：
+            - spinbutton "高度：" [ref=e139] [box=150,772,171,20]: "22"
+      - generic [ref=e143] [box=60,1608,1360,1168]:
+        - paragraph [ref=e144] [box=80,1628,1320,54]: 日曆圖製作工具是一款高效在線工具，旨在幫助用戶輕鬆創建和定製專業的日曆圖，增強時間管理和事件安排的效率。無論是個人、團隊工作還是項目管理，用戶都可以通過我們直觀的界面和靈活的設計選項，迅速生成符合需求的日曆圖形，助力生活和工作的高效規劃。
+        - paragraph [box=80,1708,1320,0]
+        - list [ref=e145] [box=110,1708,1290,242]:
+          - listitem [ref=e146] [box=110,1708,1290,27]: 圖表生成：根據用戶輸入的數據實時生成日曆圖。
+          - listitem [ref=e147] [box=110,1738,1290,27]: 多主題支持：提供多種主題選擇以美化圖表外觀。
+          - listitem [ref=e148] [box=110,1769,1290,27]: 自定義選項：允許用戶輸入標題、副標題和計量單位，添加附加信息和水印。
+          - listitem [ref=e149] [box=110,1800,1290,27]: 圖表下載：支持將生成的圖表下載為PNG格式圖片。
+          - listitem [ref=e150] [box=110,1831,1290,27]: 自動生成：在頁面載入時自動生成一個示例日曆圖，方便用戶使用。
+          - listitem [ref=e151] [box=110,1861,1290,27]: 實時預覽：實時查看數據變化對圖表的影響。
+          - listitem [ref=e152] [box=110,1892,1290,27]: 清除功能：清除所有輸入的數據和選項，重新開始。
+          - listitem [ref=e153] [box=110,1923,1290,27]: "全程本地處理: 純本地處理，完全安全，無需擔心隱私問題。"
+        - paragraph [box=80,1965,1320,0]
+        - paragraph [ref=e154] [box=80,1975,1320,27]: 極坐標雙數值軸折線圖製作工具示例圖：
+        - img "日曆圖製作工具示例圖" [ref=e156] [box=100,2028,1280,720]
+      - generic [ref=e158] [box=80,2852,1320,372]:
+        - banner [ref=e159] [box=80,2852,1320,49]:
+          - heading "撰寫評論" [level=3] [ref=e160] [box=694,2852,91,26]:
+            - link "撰寫評論" [ref=e161] [cursor=pointer] [box=694,2852,91,25]:
+              - /url: "#comments"
+        - generic [ref=e162] [box=80,2911,1320,287]:
+          - heading "Leave a Reply" [level=3] [ref=e163] [box=80,2911,1320,18]: Leave a Reply
+          - generic [ref=e164] [box=80,2939,1320,259]:
+            - paragraph [ref=e165] [box=80,2939,1320,27]:
+              - text: Your email address will not be published.
+              - generic [ref=e166] [box=782,2942,188,20]: Required fields are marked *
+            - textbox "評論、意見或反饋" [ref=e167] [box=80,2991,1320,100]
+            - paragraph [ref=e168] [box=80,3100,660,32]:
+              - generic [ref=e169] [box=80,3100,49,27]: Name *
+              - textbox "Name *" [ref=e170] [box=129,3104,396,18]
+            - paragraph [ref=e171] [box=740,3100,660,32]:
+              - generic [ref=e172] [box=740,3100,47,27]: Email *
+              - textbox "Email *" [ref=e173] [box=787,3104,396,18]
+            - paragraph [ref=e174] [box=80,3110,1320,88]:
+              - button "提交" [ref=e175] [cursor=pointer] [box=640,3158,200,40]
+  - contentinfo [ref=e176] [box=0,3286,1440,101]:
+    - generic [ref=e177] [box=48,3323,1344,56]:
+      - paragraph [ref=e178] [box=48,3323,1344,26]: Files:164 - Queries:0 - Time:0.028 - Mem:3.1671
+      - paragraph [ref=e179] [box=48,3353,1344,26]:
+        - text: Copyright ©2026 保留所有權利
+        - link "聚集工具" [ref=e180] [cursor=pointer] [box=758,3357,52,17]:
+          - /url: https://www.hasgg.com/
+        - link "網站協議" [ref=e181] [cursor=pointer] [box=810,3357,48,17]:
+          - /url: https://www.hasgg.com/website-agreement
+  - generic [ref=e182] [cursor=pointer] [box=30,805,50,50]: 缘

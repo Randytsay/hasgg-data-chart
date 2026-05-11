@@ -1,0 +1,111 @@
+{
+  "page": "思維導圖製作 - 聚集工具",
+  "url": "https://www.hasgg.com/mind-mapping",
+  "viewport": {
+    "desktop": { "width": 1440, "height": 900 },
+    "mobile": { "width": 1440, "height": 390 }
+  },
+  "layout": {
+    "container": {
+      "maxWidth": "1320px",
+      "margin": "0 auto",
+      "padding": "0 40px"
+    },
+    "header": {
+      "height": "80px",
+      "logo": {
+        "width": "48px",
+        "height": "48px"
+      }
+    },
+    "navigation": {
+      "links": {
+        "width": "116px",
+        "height": "80px",
+        "fontSize": "14px"
+      }
+    }
+  },
+  "colors": {
+    "primary": "#333333",
+    "text": {
+      "primary": "#333333",
+      "secondary": "#666666",
+      "muted": "#999999"
+    },
+    "background": {
+      "main": "#ffffff",
+      "secondary": "#f5f5f5"
+    },
+    "border": "#dddddd",
+    "accent": "#007bff"
+  },
+  "typography": {
+    "headings": {
+      "h1": {
+        "fontSize": "27px",
+        "fontWeight": "normal",
+        "marginBottom": "25px"
+      }
+    },
+    "body": {
+      "fontSize": "16px",
+      "lineHeight": "1.6"
+    }
+  },
+  "components": {
+    "markdownEditor": {
+      "textarea": {
+        "width": "500px",
+        "height": "calc(75vh - 4px)",
+        "border": "1px solid #ddd",
+        "fontSize": "16px"
+      }
+    },
+    "button": {
+      "primary": {
+        "height": "40px",
+        "padding": "0 24px",
+        "backgroundColor": "#007bff",
+        "color": "#ffffff",
+        "borderRadius": "4px"
+      }
+    },
+    "svgContainer": {
+      "flexDirection": "row",
+      "gap": "20px"
+    }
+  },
+  "features": [
+    "自動生成思維導圖",
+    "下載為SVG",
+    "本地處理，完全安全"
+  ],
+  "interactiveElements": [
+    {
+      "type": "textarea",
+      "id": "markdown",
+      "placeholder": "輸入 Markdown 格式內容",
+      "events": ["input", "change"]
+    },
+    {
+      "type": "button",
+      "text": "下載為 SVG",
+      "action": "downloadSVG"
+    }
+  ],
+  "responsiveBreakpoints": {
+    "tablet": "768px",
+    "mobile": "375px"
+  },
+  "comments": {
+    "title": "撰寫評論",
+    "titleEn": "Leave a Reply",
+    "fields": ["評論、意見或反饋", "Name *", "Email *"],
+    "submitButton": "提交"
+  },
+  "footer": {
+    "copyright": "Copyright ©2026 保留所有權利",
+    "links": ["聚集工具", "網站協議"]
+  }
+}

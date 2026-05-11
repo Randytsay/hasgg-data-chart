@@ -1,0 +1,208 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "聚集工具" [ref=e8] [cursor=pointer]:
+        - /url: https://www.hasgg.com
+        - img "聚集工具" [ref=e9]
+      - link "聚集工具" [ref=e11] [cursor=pointer]:
+        - /url: https://www.hasgg.com
+      - img [ref=e18] [cursor=pointer]
+    - text:  
+  - generic [ref=e19]:
+    - navigation "breadcrumbs" [ref=e22]:
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "首頁" [ref=e25] [cursor=pointer]:
+            - /url: https://www.hasgg.com
+        - listitem [ref=e26]:
+          - text: /
+          - generic: 縱向日曆圖製作
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "縱向日曆圖製作工具" [level=1] [ref=e32]
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: 標題[可選]：
+                - textbox "標題[可選]：" [ref=e37]:
+                  - /placeholder: 輸入標題
+                  - text: 縱向日曆圖
+              - generic [ref=e38]:
+                - generic [ref=e39]: 副標題[可選]：
+                - textbox "副標題[可選]：" [ref=e40]:
+                  - /placeholder: 輸入副標題
+                  - text: 縱向日曆圖
+              - generic [ref=e41]:
+                - generic [ref=e42]: 統計維度[可選]：
+                - textbox "統計維度[可選]：" [ref=e43]:
+                  - /placeholder: 輸入統計維度
+              - generic [ref=e44]:
+                - generic [ref=e45]: 計量單位[可選]：
+                - textbox "計量單位[可選]：" [ref=e46]:
+                  - /placeholder: 輸入計量單位
+              - generic [ref=e47]:
+                - generic [ref=e48]: 選擇主題[可選]：
+                - combobox "選擇主題[可選]：" [ref=e49]:
+                  - option "默認" [selected]
+                  - option "藍色"
+                  - option "蜜蜂靈感"
+                  - option "藍色"
+                  - option "大篷車"
+                  - option "鯉魚"
+                  - option "酷"
+                  - option "深色"
+                  - option "深藍"
+                  - option "深-黑"
+                  - option "深色虎皮"
+                  - option "深色鮮切"
+                  - option "深蘑菇色"
+                  - option "愛德華"
+                  - option "森林"
+                  - option "鮮切"
+                  - option "水果"
+                  - option "灰色"
+                  - option "綠色"
+                  - option "鶴望蘭"
+                  - option "信息圖表"
+                  - option "靈感"
+                  - option "爵士"
+                  - option "倫敦"
+                  - option "馬卡龍"
+                  - option "馬卡龍2"
+                  - option "薄荷"
+                  - option "包裝"
+                  - option "紅色"
+                  - option "紅色天鵝絨"
+                  - option "羅馬"
+                  - option "皇家"
+                  - option "櫻花"
+                  - option "光澤"
+                  - option "科技藍"
+                  - option "復古"
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - text: "*添加數據或："
+                - button "*添加數據或：" [ref=e52]
+              - table [ref=e53]:
+                - rowgroup [ref=e54]:
+                  - row "數據 Line" [ref=e55]:
+                    - columnheader "數據" [ref=e56]
+                    - columnheader "Line" [ref=e57]
+                - rowgroup [ref=e58]:
+                  - row [ref=e59]:
+                    - cell [ref=e60]
+                    - cell [ref=e61]
+                  - row [ref=e62]:
+                    - cell [ref=e63]
+                    - cell [ref=e64]
+                  - row [ref=e65]:
+                    - cell [ref=e66]
+                    - cell [ref=e67]
+                  - row [ref=e68]:
+                    - cell [ref=e69]
+                    - cell [ref=e70]
+                  - row [ref=e71]:
+                    - cell [ref=e72]
+                    - cell [ref=e73]
+                  - row [ref=e74]:
+                    - cell [ref=e75]
+                    - cell [ref=e76]
+                  - row [ref=e77]:
+                    - cell [ref=e78]
+                    - cell [ref=e79]
+              - generic [ref=e81]:
+                - button "導入Excel" [ref=e82] [cursor=pointer]
+                - button "添加一行" [ref=e83] [cursor=pointer]
+                - button "添加一豎" [ref=e84] [cursor=pointer]
+                - button "清除數據" [ref=e85] [cursor=pointer]
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: 附加信息內容[可選]：
+                - textbox "附加信息內容[可選]：" [ref=e89]:
+                  - /placeholder: 輸入附加信息
+                  - text: 數據來源：聚集工具
+                - generic [ref=e90]: 文字大小(px)：
+                - spinbutton "文字大小(px)：" [ref=e91]: "12"
+                - generic [ref=e92]: 文字顏色：
+                - textbox "文字顏色：" [ref=e93]: "#cbc3c3"
+              - generic [ref=e94]:
+                - generic [ref=e95]: 水印內容[可選]：
+                - textbox "水印內容[可選]：" [ref=e96]:
+                  - /placeholder: 輸入水印內容
+                  - text: 作者：hasgg.com
+                - generic [ref=e97]: 文字大小(px)：
+                - spinbutton "文字大小(px)：" [ref=e98]: "12"
+                - generic [ref=e99]: 文字顏色：
+                - textbox "文字顏色：" [ref=e100]: "#cbc3c3"
+          - generic [ref=e102]:
+            - button "生成圖表" [ref=e103] [cursor=pointer]
+            - button "下載圖表" [ref=e104] [cursor=pointer]
+            - button "清除所有" [ref=e105] [cursor=pointer]
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - text: 輸入年份1：
+              - textbox "輸入年份1：" [ref=e108]:
+                - /placeholder: Enter year (e.g., 2024)
+                - text: "2024"
+            - generic [ref=e109]:
+              - text: 輸入年份2：
+              - textbox "輸入年份2：" [ref=e110]:
+                - /placeholder: Enter year (e.g., 2025)
+                - text: "2025"
+            - generic [ref=e111]:
+              - text: 輸入年份3：
+              - textbox "輸入年份3：" [ref=e112]:
+                - /placeholder: Enter year (e.g., 2026)
+                - text: "2026"
+            - generic [ref=e113]:
+              - text: 高度：
+              - spinbutton "高度：" [ref=e114]: "30"
+        - generic [ref=e118]:
+          - paragraph [ref=e119]: 縱向日曆圖製作工具是一款簡單易用的在線工具，專為用戶設計用於生成縱向日曆圖，以便於可視化和規劃時間表。用戶可以直觀地輸入和編輯日期及事件信息，快速創建專業的日曆圖，更好地展示年、月、周的重要安排，提升個人和團隊的工作效率。
+          - paragraph
+          - list [ref=e120]:
+            - listitem [ref=e121]: 圖表生成：根據用戶輸入的數據實時生成縱向日曆圖。
+            - listitem [ref=e122]: 自定義選項：允許用戶輸入標題、副標題和計量單位，添加附加信息和水印。
+            - listitem [ref=e123]: 圖表下載：支持將生成的圖表下載為PNG格式圖片。
+            - listitem [ref=e124]: 自動生成：在頁面載入時自動生成一個示例縱向日曆圖，方便用戶使用。
+            - listitem [ref=e125]: 實時預覽：實時查看數據變化對圖表的影響。
+            - listitem [ref=e126]: 清除功能：清除所有輸入的數據和選項，重新開始。
+            - listitem [ref=e127]: "全程本地處理: 純本地處理，完全安全，無需擔心隱私問題。"
+          - paragraph
+          - paragraph [ref=e128]: 縱向日曆圖製作工具示例圖：
+          - img "縱向日曆圖製作工具示例圖" [ref=e130]
+        - generic [ref=e132]:
+          - banner [ref=e133]:
+            - heading "撰寫評論" [level=3] [ref=e134]:
+              - link "撰寫評論" [ref=e135] [cursor=pointer]:
+                - /url: "#comments"
+          - generic [ref=e136]:
+            - heading "Leave a Reply" [level=3] [ref=e137]: Leave a Reply
+            - generic [ref=e138]:
+              - paragraph [ref=e139]:
+                - text: Your email address will not be published.
+                - generic [ref=e140]: Required fields are marked *
+              - textbox "評論、意見或反饋" [ref=e141]
+              - paragraph [ref=e142]:
+                - generic [ref=e143]: Name *
+                - textbox "Name *" [ref=e144]
+              - paragraph [ref=e145]:
+                - generic [ref=e146]: Email *
+                - textbox "Email *" [ref=e147]
+              - paragraph [ref=e148]:
+                - button "提交" [ref=e149] [cursor=pointer]
+      - generic:
+        - insertion:
+          - generic:
+            - iframe
+  - contentinfo [ref=e150]:
+    - generic [ref=e151]:
+      - paragraph [ref=e152]: Files:164 - Queries:0 - Time:0.033 - Mem:3.1942
+      - paragraph [ref=e153]:
+        - text: Copyright ©2026 保留所有權利
+        - link "聚集工具" [ref=e154] [cursor=pointer]:
+          - /url: https://www.hasgg.com/
+        - link "網站協議" [ref=e155] [cursor=pointer]:
+          - /url: https://www.hasgg.com/website-agreement
+  - generic [ref=e156] [cursor=pointer]: 缘

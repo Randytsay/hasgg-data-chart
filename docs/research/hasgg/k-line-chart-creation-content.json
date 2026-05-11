@@ -1,0 +1,1932 @@
+{
+  "url": "https://www.hasgg.com/k-line-chart-creation",
+  "name": "k-line-chart-creation",
+  "title": "K 線圖製作 - 聚集工具",
+  "h1": "K 線圖製作工具",
+  "bodyStyles": {
+    "fontFamily": "\"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", Arial, sans-serif",
+    "fontSize": "15px",
+    "backgroundColor": "rgb(244, 244, 244)",
+    "color": "rgb(51, 51, 51)",
+    "margin": "0px",
+    "padding": "0px"
+  },
+  "formFields": [
+    {
+      "type": "text",
+      "name": "username",
+      "id": "empe",
+      "placeholder": "请输入姓名(汉字)",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "gender",
+      "id": "grdn",
+      "placeholder": "",
+      "value": "1"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "birthday",
+      "placeholder": "请选择日期",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "birthday",
+      "id": "b_input",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "hour",
+      "id": "b_hour",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "girl_username",
+      "id": "vmpe",
+      "placeholder": "请输入女方姓名(汉字)",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "g_birthday",
+      "placeholder": "请选择日期",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "girl_birthday",
+      "id": "g_input",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "girl_hour",
+      "id": "g_hour",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "dhid",
+      "id": "dhid",
+      "placeholder": "",
+      "value": "5633"
+    },
+    {
+      "type": "hidden",
+      "name": "spread",
+      "id": "spread",
+      "placeholder": "",
+      "value": "tui"
+    },
+    {
+      "type": "submit",
+      "name": "",
+      "id": "btntxt",
+      "placeholder": "",
+      "value": "立即测算"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "title",
+      "placeholder": "輸入標題",
+      "value": "2024年6月股票"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "subtitle",
+      "placeholder": "輸入副標題",
+      "value": "K線圖"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "dimension",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "unit",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "MarkTime",
+      "placeholder": "輸入標記日期，格式 yyyy/mm/dd",
+      "value": "2024/03/25"
+    },
+    {
+      "type": "number",
+      "name": "",
+      "id": "MarkValue",
+      "placeholder": "輸入標記值",
+      "value": "2333"
+    },
+    {
+      "type": "select-one",
+      "name": "",
+      "id": "theme",
+      "value": "default"
+    },
+    {
+      "type": "file",
+      "name": "",
+      "id": "inputExcel",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "extraInfo",
+      "placeholder": "輸入附加信息",
+      "value": "數據來源：聚集工具"
+    },
+    {
+      "type": "number",
+      "name": "",
+      "id": "extraInfoSize",
+      "placeholder": "輸入文字大小",
+      "value": "12"
+    },
+    {
+      "type": "color",
+      "name": "",
+      "id": "extraInfoColor",
+      "placeholder": "",
+      "value": "#cbc3c3"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "watermark",
+      "placeholder": "輸入水印內容",
+      "value": "作者：hasgg.com"
+    },
+    {
+      "type": "number",
+      "name": "",
+      "id": "watermarkSize",
+      "placeholder": "輸入文字大小",
+      "value": "12"
+    },
+    {
+      "type": "color",
+      "name": "",
+      "id": "watermarkColor",
+      "placeholder": "",
+      "value": "#cbc3c3"
+    },
+    {
+      "type": "radio",
+      "name": "legendPosition",
+      "id": "",
+      "placeholder": "",
+      "value": "left"
+    },
+    {
+      "type": "radio",
+      "name": "legendPosition",
+      "id": "",
+      "placeholder": "",
+      "value": "right"
+    },
+    {
+      "type": "radio",
+      "name": "legendPosition",
+      "id": "",
+      "placeholder": "",
+      "value": "top"
+    },
+    {
+      "type": "radio",
+      "name": "legendPosition",
+      "id": "",
+      "placeholder": "",
+      "value": "bottom"
+    },
+    {
+      "type": "radio",
+      "name": "legendPosition",
+      "id": "",
+      "placeholder": "",
+      "value": "hidden"
+    },
+    {
+      "type": "textarea",
+      "name": "comment",
+      "id": "comment",
+      "placeholder": "評論、意見或反饋",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "author",
+      "id": "author",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "name": "email",
+      "id": "email",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "comment_post_ID",
+      "id": "comment_post_ID",
+      "placeholder": "",
+      "value": "373"
+    },
+    {
+      "type": "hidden",
+      "name": "comment_parent",
+      "id": "comment_parent",
+      "placeholder": "",
+      "value": "0"
+    },
+    {
+      "type": "hidden",
+      "name": "variant",
+      "id": "",
+      "placeholder": "",
+      "value": "zh-tw"
+    }
+  ],
+  "buttons": [
+    "×",
+    "導入Excel",
+    "添加一行",
+    "添加一豎",
+    "清除數據",
+    "生成圖表",
+    "下載圖表",
+    "清除所有",
+    "粘貼示例",
+    "提交"
+  ],
+  "navLinks": [
+    {
+      "text": "",
+      "href": "https://www.hasgg.com/"
+    },
+    {
+      "text": "聚集工具",
+      "href": "https://www.hasgg.com/"
+    },
+    {
+      "text": "",
+      "href": ""
+    },
+    {
+      "text": "金融理財",
+      "href": "https://www.hasgg.com/financial-management"
+    },
+    {
+      "text": "貸款還款計算（含5種貸款方式）",
+      "href": "https://www.hasgg.com/tool-loan-calculate"
+    },
+    {
+      "text": "房貸還款（基於貸款總額）",
+      "href": "https://www.hasgg.com/mortgage-repayments-based-on-total-loan-amount"
+    },
+    {
+      "text": "房貸還款（基於房屋面積）",
+      "href": "https://www.hasgg.com/mortgage-repayments-based-on-home-size"
+    },
+    {
+      "text": "房貸還款（商業貸組合公積金貸）",
+      "href": "https://www.hasgg.com/commercial-provident-fund-loan-combination"
+    },
+    {
+      "text": "房貸提前還款（全部還清）",
+      "href": "https://www.hasgg.com/mortgage-early-repayment"
+    },
+    {
+      "text": "教育儲蓄計算",
+      "href": "https://www.hasgg.com/education-savings"
+    },
+    {
+      "text": "整存零取（基於一次性存入金額）",
+      "href": "https://www.hasgg.com/zero-withdrawal-one-time-deposit"
+    },
+    {
+      "text": "整存零取（基於每次支取金額）",
+      "href": "https://www.hasgg.com/zero-withdrawal-each-withdrawal"
+    },
+    {
+      "text": "整存零取（計算儲蓄存期）",
+      "href": "https://www.hasgg.com/zero-withdrawal-deposit-period"
+    },
+    {
+      "text": "活期存款計算",
+      "href": "https://www.hasgg.com/current-deposit-calculation"
+    },
+    {
+      "text": "零存整取（基於到期本息總額）",
+      "href": "https://www.hasgg.com/lump-sum-deposit-based-total-principal-interest"
+    },
+    {
+      "text": "零存整取（基於每期存入金額）",
+      "href": "https://www.hasgg.com/lump-sum-deposit"
+    },
+    {
+      "text": "存本取息（基於初始存款金額）",
+      "href": "https://www.hasgg.com/deposit-principal-withdraw-interest"
+    },
+    {
+      "text": "存本取息（基於每次支取利息）",
+      "href": "https://www.hasgg.com/deposit-principal-interest-each-withdrawal"
+    },
+    {
+      "text": "定期存款（整存整取）計算",
+      "href": "https://www.hasgg.com/fixed-deposit-calculation"
+    },
+    {
+      "text": "數據圖表",
+      "href": "https://www.hasgg.com/data-chart"
+    },
+    {
+      "text": "折線圖",
+      "href": "https://www.hasgg.com/line-chart-creation"
+    },
+    {
+      "text": "縱向 柱狀圖",
+      "href": "https://www.hasgg.com/vertical-bar-chart-creation"
+    },
+    {
+      "text": "基礎 餅圖",
+      "href": "https://www.hasgg.com/basic-pie-chart-creation"
+    },
+    {
+      "text": "散點圖",
+      "href": "https://www.hasgg.com/scatter-plot-creation"
+    },
+    {
+      "text": "K 線圖",
+      "href": "https://www.hasgg.com/k-line-chart-creation"
+    },
+    {
+      "text": "雷達圖",
+      "href": "https://www.hasgg.com/radar-chart-creation"
+    },
+    {
+      "text": "盒須圖",
+      "href": "https://www.hasgg.com/basic-boxplot-chart-creation"
+    },
+    {
+      "text": "樹狀圖",
+      "href": "https://www.hasgg.com/tree-chart-creation"
+    },
+    {
+      "text": "矩形樹圖",
+      "href": "https://www.hasgg.com/treemap-chart-creation"
+    },
+    {
+      "text": "旭日圖",
+      "href": "https://www.hasgg.com/sunburst-chart-creation"
+    },
+    {
+      "text": "桑基圖",
+      "href": "https://www.hasgg.com/sankey-chart-creation"
+    },
+    {
+      "text": "漏斗圖",
+      "href": "https://www.hasgg.com/funnel-chart-creation"
+    },
+    {
+      "text": "熱力圖",
+      "href": "https://www.hasgg.com/heatmap-cartesian-chart-creation"
+    },
+    {
+      "text": "直方圖",
+      "href": "https://www.hasgg.com/scatter-histogram-chart-creation"
+    },
+    {
+      "text": "基礎 儀錶盤圖",
+      "href": "https://www.hasgg.com/basic-dashboard-chart-creation"
+    },
+    {
+      "text": "主題河流圖",
+      "href": "https://www.hasgg.com/theme-river-basic-chart-creation"
+    },
+    {
+      "text": "半環形圖",
+      "href": "https://www.hasgg.com/semi-circular-pie-chart-creation"
+    },
+    {
+      "text": "南丁格爾玫瑰圖",
+      "href": "https://www.hasgg.com/nightingale-rose-chart-creation"
+    },
+    {
+      "text": "疊加對比 漏斗圖",
+      "href": "https://www.hasgg.com/stacked-contrast-funnel-chart-creation"
+    },
+    {
+      "text": "疊靠 漏斗圖",
+      "href": "https://www.hasgg.com/stacked-leaning-funnel-chart-creation"
+    },
+    {
+      "text": "另類 餅圖",
+      "href": "https://www.hasgg.com/alternative-pie-chart-creator"
+    },
+    {
+      "text": "圓角 環形圖",
+      "href": "https://www.hasgg.com/rounded-corner-circle-chart-creation"
+    },
+    {
+      "text": "縱向 盒須圖",
+      "href": "https://www.hasgg.com/vertical-boxplot-chart-creation"
+    },
+    {
+      "text": "基礎堆疊 條形圖",
+      "href": "https://www.hasgg.com/basic-stacked-bar-chart-creation"
+    },
+    {
+      "text": "堆疊 柱狀圖",
+      "href": "https://www.hasgg.com/bar-stack-brush-creation"
+    },
+    {
+      "text": "基礎堆疊歸一化百分比 條形圖",
+      "href": "https://www.hasgg.com/basic-stacked-bar-chart-normalized-percentage"
+    },
+    {
+      "text": "基礎 環形圖",
+      "href": "https://www.hasgg.com/basic-ring-chart-creation"
+    },
+    {
+      "text": "嵌套 環形圖",
+      "href": "https://www.hasgg.com/pie-nest-chart-creation"
+    },
+    {
+      "text": "扇區間隙 餅圖",
+      "href": "https://www.hasgg.com/sector-gap-pie-chart-creation"
+    },
+    {
+      "text": "折柱混合圖",
+      "href": "https://www.hasgg.com/mix-line-bar-chart-creation"
+    },
+    {
+      "text": "多 Y 軸 折柱混合圖",
+      "href": "https://www.hasgg.com/multi-yaxis-mix-line-bar-chart-creation"
+    },
+    {
+      "text": "極坐標 柱狀圖",
+      "href": "https://www.hasgg.com/bar-polar-chart-creation"
+    },
+    {
+      "text": "極坐標 圓角環形圖",
+      "href": "https://www.hasgg.com/polar-roundcap-chart-creation"
+    },
+    {
+      "text": "極坐標堆疊 柱狀圖",
+      "href": "https://www.hasgg.com/bar-polar-stack-chart-creation"
+    },
+    {
+      "text": "橫向 柱狀圖",
+      "href": "https://www.hasgg.com/horizontal-bar-chart-creation"
+    },
+    {
+      "text": "瀑布圖",
+      "href": "https://www.hasgg.com/waterfall-chart-creation"
+    },
+    {
+      "text": "縱向堆疊 條形圖",
+      "href": "https://www.hasgg.com/vertical-stacked-bar-chart-creation"
+    },
+    {
+      "text": "縱向堆疊歸一化百分比 條形圖",
+      "href": "https://www.hasgg.com/vertical-stacked-bar-chart-normalized-percentage"
+    },
+    {
+      "text": "詞雲圖",
+      "href": "https://www.hasgg.com/word-cloud-chart-creation"
+    },
+    {
+      "text": "進度 儀錶盤圖",
+      "href": "https://www.hasgg.com/progress-dashboard-chart-creation"
+    },
+    {
+      "text": "階梯 瀑布圖",
+      "href": "https://www.hasgg.com/step-waterfall-chart-creation"
+    },
+    {
+      "text": "餅圖聯動 折線圖",
+      "href": "https://www.hasgg.com/pie-linkage-line-chart-creation"
+    },
+    {
+      "text": "多 X 軸 折線圖",
+      "href": "https://www.hasgg.com/multi-xaxis-line-chart-creation"
+    },
+    {
+      "text": "垂直 折線圖",
+      "href": "https://www.hasgg.com/vertical-line-chart-creation"
+    },
+    {
+      "text": "凹凸圖/排序圖",
+      "href": "https://www.hasgg.com/bump-chart-creation"
+    },
+    {
+      "text": "極坐標 氣泡圖",
+      "href": "https://www.hasgg.com/scatter-polar-creation"
+    },
+    {
+      "text": "笛卡爾坐標 氣泡圖",
+      "href": "https://www.hasgg.com/cartesian-scatterplot-creation"
+    },
+    {
+      "text": "單軸 散點圖",
+      "href": "https://www.hasgg.com/scatter-single-axis-creation"
+    },
+    {
+      "text": "數據聚合 散點圖",
+      "href": "https://www.hasgg.com/data-aggregation-scatterplot-creation"
+    },
+    {
+      "text": "分布範圍 散點圖",
+      "href": "https://www.hasgg.com/scatterplot-distribution-ranges-creation"
+    },
+    {
+      "text": "多系列 盒須圖",
+      "href": "https://www.hasgg.com/multi-boxplot-creation"
+    },
+    {
+      "text": "函數繪製圖形",
+      "href": "https://www.hasgg.com/line-function-chart-creation"
+    },
+    {
+      "text": "帶標記/標線的 柱狀圖",
+      "href": "https://www.hasgg.com/bar-markpoint-markline-creation"
+    },
+    {
+      "text": "多數值 軸軸縮放 柱狀圖",
+      "href": "https://www.hasgg.com/mix-zoom-on-value-bar-creation"
+    },
+    {
+      "text": "可拖拽點的 折線圖",
+      "href": "https://www.hasgg.com/line-draggable-chart-creation"
+    },
+    {
+      "text": "可添加拐點的 折線圖",
+      "href": "https://www.hasgg.com/line-pen-chart-creation"
+    },
+    {
+      "text": "極坐標 雙數值軸 折線圖",
+      "href": "https://www.hasgg.com/line-polar-chart-creation"
+    },
+    {
+      "text": "極坐標 雙數值軸 折線圖-2",
+      "href": "https://www.hasgg.com/line-polar-chart-creation2"
+    },
+    {
+      "text": "雙數值軸 折線圖",
+      "href": "https://www.hasgg.com/line-in-cartesian-coordinate-system"
+    },
+    {
+      "text": "帶標記/標線的 折線圖",
+      "href": "https://www.hasgg.com/line-markpoint-markline-creation"
+    },
+    {
+      "text": "極坐標 熱力圖",
+      "href": "https://www.hasgg.com/polar-heatmap-chart-creation"
+    },
+    {
+      "text": "思維導圖",
+      "href": "https://www.hasgg.com/mind-mapping"
+    },
+    {
+      "text": "手寫白板畫布",
+      "href": "https://www.hasgg.com/whiteboard-canvas"
+    },
+    {
+      "text": "流程圖、矢量圖",
+      "href": "https://www.hasgg.com/online-flowchart-drawing2"
+    },
+    {
+      "text": "日曆圖",
+      "href": "https://www.hasgg.com/calendar-simple-chart-creation"
+    },
+    {
+      "text": "橫向 日曆圖",
+      "href": "https://www.hasgg.com/calendar-horizontal-chart-creation"
+    },
+    {
+      "text": "縱向 日曆圖",
+      "href": "https://www.hasgg.com/calendar-vertical-chart-creation"
+    },
+    {
+      "text": "圖片轉 3D柱狀圖",
+      "href": "https://www.hasgg.com/image-to-bar3d"
+    },
+    {
+      "text": "圖片轉 3D曲面圖",
+      "href": "https://www.hasgg.com/image-surface-sushuang"
+    },
+    {
+      "text": "3D 折線圖",
+      "href": "https://www.hasgg.com/line3d-chart-creation"
+    },
+    {
+      "text": "3D 柱狀圖",
+      "href": "https://www.hasgg.com/bar3d-chart-creation"
+    },
+    {
+      "text": "3D 曲面圖",
+      "href": "https://www.hasgg.com/3dsurface-chart-creation"
+    },
+    {
+      "text": "3D 散點圖",
+      "href": "https://www.hasgg.com/scatter3d-dataset-chart-creation"
+    },
+    {
+      "text": "虛線柱狀圖",
+      "href": "https://www.hasgg.com/pictorialbar-dotted-chart-creation"
+    },
+    {
+      "text": "氣泡圖",
+      "href": "https://www.hasgg.com/bubble-chart-creation"
+    },
+    {
+      "text": "氣泡圖2",
+      "href": "https://www.hasgg.com/bubble-chart-creation2"
+    },
+    {
+      "text": "AQI 氣泡圖",
+      "href": "https://www.hasgg.com/scatter-aqi-chart-creation"
+    },
+    {
+      "text": "流式渲染散點圖",
+      "href": "https://www.hasgg.com/scatter-stream-visual-chart-creation"
+    },
+    {
+      "text": "數據集 3D 柱狀圖",
+      "href": "https://www.hasgg.com/bar3d-dataset-chart-creation"
+    },
+    {
+      "text": "3D 體素化圖像",
+      "href": "https://www.hasgg.com/bar3d-voxelize-image"
+    },
+    {
+      "text": "3D 星雲效果",
+      "href": "https://www.hasgg.com/bar3d-myth-creation"
+    },
+    {
+      "text": "標籤右部對齊 散點圖",
+      "href": "https://www.hasgg.com/scatter-label-right"
+    },
+    {
+      "text": "標籤頂部對齊 散點圖",
+      "href": "https://www.hasgg.com/scatter-label-top"
+    },
+    {
+      "text": "時鐘屏保",
+      "href": "https://www.hasgg.com/clock-screensaver"
+    },
+    {
+      "text": "單位換算",
+      "href": "https://www.hasgg.com/unit-conversion"
+    },
+    {
+      "text": "長度單位換算",
+      "href": "https://www.hasgg.com/length-unit-convert"
+    },
+    {
+      "text": "重量單位換算",
+      "href": "https://www.hasgg.com/weight-mass-unit-covert"
+    },
+    {
+      "text": "體積單位換算",
+      "href": "https://www.hasgg.com/volume-unit-covert"
+    },
+    {
+      "text": "溫度單位換算",
+      "href": "https://www.hasgg.com/temperature-unit-conversion"
+    },
+    {
+      "text": "面積單位換算",
+      "href": "https://www.hasgg.com/area-unit-convert"
+    },
+    {
+      "text": "力單位換算",
+      "href": "https://www.hasgg.com/force-unit-conversion"
+    },
+    {
+      "text": "力矩單位換算",
+      "href": "https://www.hasgg.com/torque-unit-conversion"
+    },
+    {
+      "text": "功率單位換算",
+      "href": "https://www.hasgg.com/power-unit-conversion"
+    },
+    {
+      "text": "加速度單位換算",
+      "href": "https://www.hasgg.com/acceleration-unit-conversion"
+    },
+    {
+      "text": "壓力單位換算",
+      "href": "https://www.hasgg.com/pressure-unit-conversion"
+    },
+    {
+      "text": "速度單位換算",
+      "href": "https://www.hasgg.com/speed-unit-conversion"
+    },
+    {
+      "text": "密度、濃度單位換算",
+      "href": "https://www.hasgg.com/density-concentration-unit-conversion"
+    },
+    {
+      "text": "放射性強度單位換算",
+      "href": "https://www.hasgg.com/radiation-activity-unit-conversion"
+    },
+    {
+      "text": "數據存儲單位換算",
+      "href": "https://www.hasgg.com/data-storage-unit-conversion"
+    },
+    {
+      "text": "數量單位換算",
+      "href": "https://www.hasgg.com/number-unit-conversion"
+    },
+    {
+      "text": "時間單位換算",
+      "href": "https://www.hasgg.com/time-unit-conversion"
+    },
+    {
+      "text": "流量(摩爾)單位換算",
+      "href": "https://www.hasgg.com/flow-molar-unit-conversion"
+    },
+    {
+      "text": "流量單位換算",
+      "href": "https://www.hasgg.com/flow-unit-conversion"
+    },
+    {
+      "text": "濃度(摩爾-體積)單位換算",
+      "href": "https://www.hasgg.com/concentration-molar-unit-conversion"
+    },
+    {
+      "text": "熱量單位換算",
+      "href": "https://www.hasgg.com/energy-unit-conversion"
+    },
+    {
+      "text": "燃油效率(體積)換算",
+      "href": "https://www.hasgg.com/fuel-efficiency-volume-unit-conversion"
+    },
+    {
+      "text": "燃油效率(質量)換算",
+      "href": "https://www.hasgg.com/fuel-efficiency-mass-unit-conversion"
+    },
+    {
+      "text": "燃油消耗量換算",
+      "href": "https://www.hasgg.com/fuel-consumption-unit-conversion"
+    },
+    {
+      "text": "電壓單位換算",
+      "href": "https://www.hasgg.com/voltage-unit-conversion"
+    },
+    {
+      "text": "電容單位換算",
+      "href": "https://www.hasgg.com/capacitance-unit-conversion"
+    },
+    {
+      "text": "電感單位換算",
+      "href": "https://www.hasgg.com/inductance-unit-conversion"
+    },
+    {
+      "text": "電流單位換算",
+      "href": "https://www.hasgg.com/electric-current-unit-conversion"
+    },
+    {
+      "text": "電荷量單位換算",
+      "href": "https://www.hasgg.com/charge-unit-conversion"
+    },
+    {
+      "text": "電阻單位換算",
+      "href": "https://www.hasgg.com/electric-resistance-unit-conversion"
+    },
+    {
+      "text": "磁通量單位換算",
+      "href": "https://www.hasgg.com/magnetic-flux-unit-conversion"
+    },
+    {
+      "text": "角度單位換算",
+      "href": "https://www.hasgg.com/angle-unit-conversion"
+    },
+    {
+      "text": "質量流量單位換算",
+      "href": "https://www.hasgg.com/flow-mass-unit-conversion"
+    },
+    {
+      "text": "轉動慣量單位換算",
+      "href": "https://www.hasgg.com/moment-of-inertia-unit-conversion"
+    },
+    {
+      "text": "輻射單位換算",
+      "href": "https://www.hasgg.com/radiation-unit-conversion"
+    },
+    {
+      "text": "輻射吸收劑量單位換算",
+      "href": "https://www.hasgg.com/radiation-absorbed-dose-unit-conversion"
+    },
+    {
+      "text": "亮度單位換算",
+      "href": "https://www.hasgg.com/luminance-unit-conversion"
+    },
+    {
+      "text": "頻率波長單位換算",
+      "href": "https://www.hasgg.com/frequency-wavelength-unit-conversion"
+    },
+    {
+      "text": "聲音單位換算",
+      "href": "https://www.hasgg.com/sound-unit-conversion"
+    },
+    {
+      "text": "地理坐標",
+      "href": "https://www.hasgg.com/geographic-coordinates"
+    },
+    {
+      "text": "地圖坐標系轉換",
+      "href": "https://www.hasgg.com/coord-transform"
+    },
+    {
+      "text": "經緯度 轉換 度分秒",
+      "href": "https://www.hasgg.com/degree-second-convert"
+    },
+    {
+      "text": "地球兩點距離",
+      "href": "https://www.hasgg.com/earth-points-distance"
+    },
+    {
+      "text": "大地坐標 轉換 地心XYZ坐標",
+      "href": "https://www.hasgg.com/geocentric-geodetic-coordinate-convert"
+    },
+    {
+      "text": "經緯度 轉換 UTM",
+      "href": "https://www.hasgg.com/lat-long-utm"
+    },
+    {
+      "text": "經緯度 轉換 度/分/秒",
+      "href": "https://www.hasgg.com/lat-long-dms"
+    },
+    {
+      "text": "經緯度/反方位角 計算",
+      "href": "https://www.hasgg.com/lat-long-dis-deg"
+    },
+    {
+      "text": "經緯度 轉換 OSGB",
+      "href": "https://www.hasgg.com/lat-long-osgb"
+    },
+    {
+      "text": "UTM 轉換 MGRS",
+      "href": "https://www.hasgg.com/utm-mgrs"
+    },
+    {
+      "text": "坐標中點與插值點",
+      "href": "https://www.hasgg.com/mid-int-point"
+    },
+    {
+      "text": "經緯度相交點",
+      "href": "https://www.hasgg.com/point-of-intersection"
+    },
+    {
+      "text": "交叉航跡距離",
+      "href": "https://www.hasgg.com/distance-great-circle"
+    },
+    {
+      "text": "大圓弧段最近點",
+      "href": "https://www.hasgg.com/closest-point-great-circle"
+    },
+    {
+      "text": "大圓弧段範圍檢測",
+      "href": "https://www.hasgg.com/point-within-line-segment"
+    },
+    {
+      "text": "三點三角測量定位",
+      "href": "https://www.hasgg.com/locate-lat-long-point"
+    },
+    {
+      "text": "航向位置計算",
+      "href": "https://www.hasgg.com/point-distance-initial-bearing"
+    },
+    {
+      "text": "球面多邊形面積",
+      "href": "https://www.hasgg.com/area-spherical-polygon"
+    },
+    {
+      "text": "球面多邊形的中心點",
+      "href": "https://www.hasgg.com/centre-spherical-polygon"
+    },
+    {
+      "text": "地理均值點",
+      "href": "https://www.hasgg.com/geographic-mean-point"
+    },
+    {
+      "text": "經緯度坐標拾取",
+      "href": "https://www.hasgg.com/lat-long-coordinates-position"
+    },
+    {
+      "text": "文檔辦公",
+      "href": "https://www.hasgg.com/document-office"
+    },
+    {
+      "text": "Excel Sheet 分割",
+      "href": "https://www.hasgg.com/excel-sheet-split"
+    },
+    {
+      "text": "Excel 倒置",
+      "href": "https://www.hasgg.com/excel-inversion"
+    },
+    {
+      "text": "Excel 合併",
+      "href": "https://www.hasgg.com/excel-merge"
+    },
+    {
+      "text": "CSV 轉 Excel",
+      "href": "https://www.hasgg.com/csv-to-excel"
+    },
+    {
+      "text": "Excel 轉 HTML",
+      "href": "https://www.hasgg.com/excel-to-html"
+    },
+    {
+      "text": "Excel 轉 JSON",
+      "href": "https://www.hasgg.com/excel-to-json"
+    },
+    {
+      "text": "Excel 轉 CSV",
+      "href": "https://www.hasgg.com/excel-to-csv"
+    },
+    {
+      "text": "Excel 轉 PDF",
+      "href": "https://www.hasgg.com/excel-to-pdf"
+    },
+    {
+      "text": "JSON 轉 Excel",
+      "href": "https://www.hasgg.com/json-to-excel"
+    },
+    {
+      "text": "Excel 轉 TXT",
+      "href": "https://www.hasgg.com/excel-to-txt"
+    },
+    {
+      "text": "TXT 轉 Excel",
+      "href": "https://www.hasgg.com/txt-to-excel"
+    },
+    {
+      "text": "PDF 加水印",
+      "href": "https://www.hasgg.com/pdf-watermark"
+    },
+    {
+      "text": "PDF 合併",
+      "href": "https://www.hasgg.com/tool-pdf-merge"
+    },
+    {
+      "text": "PDF 截長圖",
+      "href": "https://www.hasgg.com/pdf-to-long-image"
+    },
+    {
+      "text": "PDF 截首頁",
+      "href": "https://www.hasgg.com/pdf-home-page-to-image"
+    },
+    {
+      "text": "PDF 拆分",
+      "href": "https://www.hasgg.com/pdf-siplit"
+    },
+    {
+      "text": "PDF 轉 PNG",
+      "href": "https://www.hasgg.com/pdf-to-png-batch"
+    },
+    {
+      "text": "PDF 頁面裁剪",
+      "href": "https://www.hasgg.com/pdf-page-cropping"
+    },
+    {
+      "text": "PDF 添加頁碼",
+      "href": "https://www.hasgg.com/pdf-add-pag-number"
+    },
+    {
+      "text": "PDF 加圖片水印",
+      "href": "https://www.hasgg.com/pdf-image-watermark"
+    },
+    {
+      "text": "PDF 元數據修改",
+      "href": "https://www.hasgg.com/batch-modify-pdf-metadata"
+    },
+    {
+      "text": "PDF 頁面尺寸修改",
+      "href": "https://www.hasgg.com/modify-pdf-page-size"
+    },
+    {
+      "text": "文本處理",
+      "href": "https://www.hasgg.com/text-processing"
+    },
+    {
+      "text": "TXT文本刪除行",
+      "href": "https://www.hasgg.com/delete-txt-rows"
+    },
+    {
+      "text": "TXT文本拆分",
+      "href": "https://www.hasgg.com/txt-split"
+    },
+    {
+      "text": "多文本多關鍵詞批量替換",
+      "href": "https://www.hasgg.com/bulk-keyword-replacement"
+    },
+    {
+      "text": "批量文本去重工具",
+      "href": "https://www.hasgg.com/text-de-duplication"
+    },
+    {
+      "text": "文字顛倒反向(ABC↔ Ɔ𐐒∀)",
+      "href": "https://www.hasgg.com/text-upside-down-restore"
+    },
+    {
+      "text": "文本增加行號",
+      "href": "https://www.hasgg.com/add-line-numbers-to-text"
+    },
+    {
+      "text": "文本對比-實時校對差異",
+      "href": "https://www.hasgg.com/text-comparison-differences"
+    },
+    {
+      "text": "文本批量提取郵箱",
+      "href": "https://www.hasgg.com/text-extraction-mailbox"
+    },
+    {
+      "text": "文本清理",
+      "href": "https://www.hasgg.com/txt-data-clear"
+    },
+    {
+      "text": "文本統計",
+      "href": "https://www.hasgg.com/word-stat"
+    },
+    {
+      "text": "豎排文字轉換（橫排轉豎排）",
+      "href": "https://www.hasgg.com/vertical-text"
+    },
+    {
+      "text": "空格與製表符轉換 (Space ↔ Tab)",
+      "href": "https://www.hasgg.com/space-and-tab-conversion"
+    },
+    {
+      "text": "空格轉回車（空格轉為換行符）",
+      "href": "https://www.hasgg.com/space-to-enter"
+    },
+    {
+      "text": "簡體轉繁體（繁簡轉換）",
+      "href": "https://www.hasgg.com/simplified-to-traditional-chinese"
+    },
+    {
+      "text": "英文與阿拉伯數字轉換",
+      "href": "https://www.hasgg.com/english-and-arabic-numerals-conversion"
+    },
+    {
+      "text": "英文單詞大小寫轉換",
+      "href": "https://www.hasgg.com/english-uppercase-and-lowercase-conversion"
+    },
+    {
+      "text": "全形半形轉換",
+      "href": "https://www.hasgg.com/full-half-width-conversion"
+    },
+    {
+      "text": "站長開發",
+      "href": "https://www.hasgg.com/webmaster-development"
+    },
+    {
+      "text": "CSS 格式化/壓縮",
+      "href": "https://www.hasgg.com/css-beautify-compress"
+    },
+    {
+      "text": "HTML 表格生成器",
+      "href": "https://www.hasgg.com/html-table-generator"
+    },
+    {
+      "text": "HTML/JS/CSS格式化（代碼美化）",
+      "href": "https://www.hasgg.com/html-js-css-beautify"
+    },
+    {
+      "text": "HTML/JS/CSS過濾器",
+      "href": "https://www.hasgg.com/html-js-css-filter"
+    },
+    {
+      "text": "HTML/JS互轉",
+      "href": "https://www.hasgg.com/html-to-js"
+    },
+    {
+      "text": "JSFuck加密（JSFuck編碼器）",
+      "href": "https://www.hasgg.com/jsfuck-encoder"
+    },
+    {
+      "text": "JSFuck解密（JSFuck解碼器）",
+      "href": "https://www.hasgg.com/jsfuck-decoder"
+    },
+    {
+      "text": "JS混淆加密（不可逆）",
+      "href": "https://www.hasgg.com/js-obfuscator"
+    },
+    {
+      "text": "MD5加密",
+      "href": "https://www.hasgg.com/md5-encryption"
+    },
+    {
+      "text": "PHP代碼格式化",
+      "href": "https://www.hasgg.com/php-beautify"
+    },
+    {
+      "text": "壓縮HTML成一行",
+      "href": "https://www.hasgg.com/html-compress"
+    },
+    {
+      "text": "壓縮JavaScript成一行",
+      "href": "https://www.hasgg.com/js-compress"
+    },
+    {
+      "text": "robots.txt生成",
+      "href": "https://www.hasgg.com/robots-txt-generation"
+    },
+    {
+      "text": "Unicode與ASCII互轉",
+      "href": "https://www.hasgg.com/unicode-to-ascii"
+    },
+    {
+      "text": "Unicode編碼解碼",
+      "href": "https://www.hasgg.com/unicode-encode-decode"
+    },
+    {
+      "text": "URL編碼解碼",
+      "href": "https://www.hasgg.com/url-encode-decode"
+    },
+    {
+      "text": "Base64編碼解碼",
+      "href": "https://www.hasgg.com/base64-encode-decode"
+    },
+    {
+      "text": "UTF-8編碼解碼",
+      "href": "https://www.hasgg.com/utf-8-encode-decode"
+    },
+    {
+      "text": "Unix時間戳轉換",
+      "href": "https://www.hasgg.com/unix-timestamp-conversion"
+    },
+    {
+      "text": "UUID生成",
+      "href": "https://www.hasgg.com/uuid-generator"
+    },
+    {
+      "text": "MAC地址生成",
+      "href": "https://www.hasgg.com/mac-address-generator"
+    },
+    {
+      "text": "免費在線代碼編輯器",
+      "href": "https://www.hasgg.com/online-code-editor"
+    },
+    {
+      "text": "在線CSV文本轉HTML表格",
+      "href": "https://www.hasgg.com/csv-text-to-html-table"
+    },
+    {
+      "text": "在線Markdown編輯器",
+      "href": "https://www.hasgg.com/markdown-editor"
+    },
+    {
+      "text": "在線顏色轉換器",
+      "href": "https://www.hasgg.com/color-converter"
+    },
+    {
+      "text": "顏色轉換(RGB ↔ Hex)",
+      "href": "https://www.hasgg.com/color-conversion"
+    },
+    {
+      "text": "序列號生成",
+      "href": "https://www.hasgg.com/serial-number-generator"
+    },
+    {
+      "text": "手機號生成",
+      "href": "https://www.hasgg.com/mobile-phone-number-generation"
+    },
+    {
+      "text": "正則表達式匹配",
+      "href": "https://www.hasgg.com/regular-expression-matching"
+    },
+    {
+      "text": "規範URL轉換",
+      "href": "https://www.hasgg.com/standard-url-convert"
+    },
+    {
+      "text": "隨機JSON數據生成",
+      "href": "https://www.hasgg.com/randomized-json-data-generation"
+    },
+    {
+      "text": "駝峰與下劃線互轉",
+      "href": "https://www.hasgg.com/camelcase-to-underscore"
+    },
+    {
+      "text": "在線隨機顏色生成器",
+      "href": "https://www.hasgg.com/random-color-generator"
+    },
+    {
+      "text": "漸變色生成及調試器",
+      "href": "https://www.hasgg.com/gradient-color-generation-debugger"
+    },
+    {
+      "text": "字體、圖標解析預覽",
+      "href": "https://www.hasgg.com/font-icon-preview"
+    },
+    {
+      "text": "機器人/爬蟲/蜘蛛檢測",
+      "href": "https://www.hasgg.com/spider-detection-tool"
+    },
+    {
+      "text": "網路和 IP 地址計算器",
+      "href": "https://www.hasgg.com/subnet-mask-calculator"
+    },
+    {
+      "text": "圖片處理",
+      "href": "https://www.hasgg.com/image-processing"
+    },
+    {
+      "text": "SVG/PNG占點陣圖生成器",
+      "href": "https://www.hasgg.com/svg-placeholder-generator"
+    },
+    {
+      "text": "SVG 圖片預覽",
+      "href": "https://www.hasgg.com/svg-image-preview"
+    },
+    {
+      "text": "SVG 轉 PNG",
+      "href": "https://www.hasgg.com/svg-to-png"
+    },
+    {
+      "text": "SVG編輯器",
+      "href": "https://www.hasgg.com/online-svg-editor"
+    },
+    {
+      "text": "圖片英文OCR",
+      "href": "https://www.hasgg.com/image-ocr-english"
+    },
+    {
+      "text": "圖片像素化",
+      "href": "https://www.hasgg.com/pixelate-image"
+    },
+    {
+      "text": "圖片分割",
+      "href": "https://www.hasgg.com/image-segmentation"
+    },
+    {
+      "text": "圖片圓角化",
+      "href": "https://www.hasgg.com/image-rounding"
+    },
+    {
+      "text": "圖片拼接",
+      "href": "https://www.hasgg.com/image-stitching-tool"
+    },
+    {
+      "text": "圖片箭頭標註",
+      "href": "https://www.hasgg.com/image-annotation"
+    },
+    {
+      "text": "圖片調整",
+      "href": "https://www.hasgg.com/image-adjustment-tool"
+    },
+    {
+      "text": "圖片裁剪",
+      "href": "https://www.hasgg.com/crop-images"
+    },
+    {
+      "text": "圖片 轉 AVIF",
+      "href": "https://www.hasgg.com/image-to-avif"
+    },
+    {
+      "text": "圖片 轉 JPG",
+      "href": "https://www.hasgg.com/image-to-jpg"
+    },
+    {
+      "text": "圖片 轉 Webp",
+      "href": "https://www.hasgg.com/image-to-webp"
+    },
+    {
+      "text": "圖片 轉 PNG",
+      "href": "https://www.hasgg.com/image-to-png"
+    },
+    {
+      "text": "圖片 轉 QOI",
+      "href": "https://www.hasgg.com/image-to-qoi"
+    },
+    {
+      "text": "圖片轉字元畫",
+      "href": "https://www.hasgg.com/image-to-ascii-text"
+    },
+    {
+      "text": "圖片顏色吸取",
+      "href": "https://www.hasgg.com/absorb-image-colors"
+    },
+    {
+      "text": "圖像壓縮器",
+      "href": "https://www.hasgg.com/online-image-compressor"
+    },
+    {
+      "text": "GIF 逐幀分解",
+      "href": "https://www.hasgg.com/gif-splitter"
+    },
+    {
+      "text": "GIF 製作",
+      "href": "https://www.hasgg.com/image-to-gif"
+    },
+    {
+      "text": "GIF 倒轉播放",
+      "href": "https://www.hasgg.com/gif-reverse"
+    },
+    {
+      "text": "GIF 翻轉旋轉",
+      "href": "https://www.hasgg.com/gif-adjustment"
+    },
+    {
+      "text": "GIF 縮放尺寸",
+      "href": "https://www.hasgg.com/gif-scaler"
+    },
+    {
+      "text": "GIF 添加水印",
+      "href": "https://www.hasgg.com/gif-watermark"
+    },
+    {
+      "text": "視頻轉 GIF",
+      "href": "https://www.hasgg.com/video-to-gif"
+    },
+    {
+      "text": "GIF 壓縮",
+      "href": "https://www.hasgg.com/gif-compress"
+    },
+    {
+      "text": "GIF 裁剪",
+      "href": "https://www.hasgg.com/gif-crop"
+    },
+    {
+      "text": "GIF 合併",
+      "href": "https://www.hasgg.com/gif-merge"
+    },
+    {
+      "text": "GIF 拼接",
+      "href": "https://www.hasgg.com/gif-splice"
+    },
+    {
+      "text": "GIF 修改背景",
+      "href": "https://www.hasgg.com/gif-background"
+    },
+    {
+      "text": "GIF 摳圖",
+      "href": "https://www.hasgg.com/gif-cutout"
+    },
+    {
+      "text": "GIF 縮短",
+      "href": "https://www.hasgg.com/gif-shorten"
+    },
+    {
+      "text": "純色背景圖摳圖",
+      "href": "https://www.hasgg.com/background-cutout"
+    },
+    {
+      "text": "圖片 EXIF",
+      "href": "https://www.hasgg.com/image-exif"
+    },
+    {
+      "text": "證件照修改尺寸",
+      "href": "https://www.hasgg.com/images-size-change"
+    },
+    {
+      "text": "修改照片解析度(DPI)",
+      "href": "https://www.hasgg.com/images-dpi-change"
+    },
+    {
+      "text": "圖片尺寸、像素、DPI相互轉換",
+      "href": "https://www.hasgg.com/size-pixels-dpi-convert"
+    },
+    {
+      "text": "灰度圖片轉換器",
+      "href": "https://www.hasgg.com/grayscale-image-converter"
+    },
+    {
+      "text": "圖像模糊器",
+      "href": "https://www.hasgg.com/image-blur"
+    },
+    {
+      "text": "圖像黑白化",
+      "href": "https://www.hasgg.com/image-black-white"
+    },
+    {
+      "text": "圖像閾值處理",
+      "href": "https://www.hasgg.com/image-threshold"
+    },
+    {
+      "text": "圖像自適應閾值",
+      "href": "https://www.hasgg.com/image-adaptive-thresholding"
+    },
+    {
+      "text": "圖像添加邊框",
+      "href": "https://www.hasgg.com/images-add-borders"
+    },
+    {
+      "text": "圖像旋轉變換",
+      "href": "https://www.hasgg.com/image-rotate-transform"
+    },
+    {
+      "text": "日常生活",
+      "href": "https://www.hasgg.com/daily-life"
+    },
+    {
+      "text": "在線秒錶計時器",
+      "href": "https://www.hasgg.com/online-stopwatch-timing"
+    },
+    {
+      "text": "進位轉換",
+      "href": "https://www.hasgg.com/base-conversion-batch"
+    },
+    {
+      "text": "批量提取層級文件名",
+      "href": "https://www.hasgg.com/extract-hierarchical-file-name"
+    },
+    {
+      "text": "批量提取文件名",
+      "href": "https://www.hasgg.com/extrac-file-names"
+    },
+    {
+      "text": "日期計算（第幾天、日期互算）",
+      "href": "https://www.hasgg.com/date-of-year"
+    },
+    {
+      "text": "日期計算（結束日期、日期差）",
+      "href": "https://www.hasgg.com/end-date-difference"
+    },
+    {
+      "text": "時區換算查詢",
+      "href": "https://www.hasgg.com/time-zone-converter"
+    },
+    {
+      "text": "下載鏈接轉換",
+      "href": "https://www.hasgg.com/download-link-conversion"
+    },
+    {
+      "text": "二維碼在線生成",
+      "href": "https://www.hasgg.com/qrcode-online-generation"
+    },
+    {
+      "text": "兒童疫苗接種時間查詢",
+      "href": "https://www.hasgg.com/childrens-vaccination-schedule-query"
+    },
+    {
+      "text": "全國銀行SWIFT碼核實",
+      "href": "https://www.hasgg.com/swift-code-verification"
+    },
+    {
+      "text": "化學元素周期表（化學元素查詢）",
+      "href": "https://www.hasgg.com/periodic-elements"
+    },
+    {
+      "text": "區號郵編查詢",
+      "href": "https://www.hasgg.com/area-postal"
+    },
+    {
+      "text": "在線批量ZIP壓縮",
+      "href": "https://www.hasgg.com/online-batch-zip-compression"
+    },
+    {
+      "text": "在線科學計算器",
+      "href": "https://www.hasgg.com/scientific-calculator"
+    },
+    {
+      "text": "在線表面積計算器",
+      "href": "https://www.hasgg.com/surface-area-calculator"
+    },
+    {
+      "text": "在線體積計算器",
+      "href": "https://www.hasgg.com/volume-calculator"
+    },
+    {
+      "text": "教材/教科書免費在線下載",
+      "href": "https://www.hasgg.com/textbook-free-download"
+    },
+    {
+      "text": "數字上下標轉換",
+      "href": "https://www.hasgg.com/number-sup-sub-convert"
+    },
+    {
+      "text": "數字科學計數法換算",
+      "href": "https://www.hasgg.com/number-scientific-notation-conversion"
+    },
+    {
+      "text": "數字轉中文",
+      "href": "https://www.hasgg.com/number-to-chinese"
+    },
+    {
+      "text": "數字轉英文",
+      "href": "https://www.hasgg.com/number-to-english"
+    },
+    {
+      "text": "文件重命名",
+      "href": "https://www.hasgg.com/file-rename-batch"
+    },
+    {
+      "text": "新換輪胎差值計算",
+      "href": "https://www.hasgg.com/new-tire-difference-calculation"
+    },
+    {
+      "text": "方差和標準差計算器",
+      "href": "https://www.hasgg.com/variance-standard-deviation"
+    },
+    {
+      "text": "最大公約數與最小公倍數計算",
+      "href": "https://www.hasgg.com/gcd-lcm-calculator"
+    },
+    {
+      "text": "條形碼在線生成",
+      "href": "https://www.hasgg.com/barcode-online-generation"
+    },
+    {
+      "text": "漢字拆解",
+      "href": "https://www.hasgg.com/decompose-chinese-characters"
+    },
+    {
+      "text": "漢字轉拼音",
+      "href": "https://www.hasgg.com/chinese-to-pinyin"
+    },
+    {
+      "text": "漢字部首、筆畫數查詢",
+      "href": "https://www.hasgg.com/chinese-character-radical"
+    },
+    {
+      "text": "特殊符號集合",
+      "href": "https://www.hasgg.com/special-symbol-collection"
+    },
+    {
+      "text": "Emoji 表情集合",
+      "href": "https://www.hasgg.com/emoji-collection-tool"
+    },
+    {
+      "text": "田字格字帖生成",
+      "href": "https://www.hasgg.com/tianzhi-grid-character-generator"
+    },
+    {
+      "text": "百度百科圖片去水印",
+      "href": "https://www.hasgg.com/baidu-watermark-free-image-extraction"
+    },
+    {
+      "text": "紙張尺寸查詢",
+      "href": "https://www.hasgg.com/paper-size-query"
+    },
+    {
+      "text": "網路縮寫詞翻譯查詢",
+      "href": "https://www.hasgg.com/network-abbreviation-translation-query"
+    },
+    {
+      "text": "血型查詢",
+      "href": "https://www.hasgg.com/blood-type-query"
+    },
+    {
+      "text": "身份證校驗碼計算",
+      "href": "https://www.hasgg.com/id-card-verification"
+    },
+    {
+      "text": "郵箱批量生成工具",
+      "href": "https://www.hasgg.com/email-generator"
+    },
+    {
+      "text": "鍵盤按鍵檢測",
+      "href": "https://www.hasgg.com/keyboard-key-detection"
+    },
+    {
+      "text": "鍵碼值查詢",
+      "href": "https://www.hasgg.com/key-code-value-query"
+    },
+    {
+      "text": "阿拉伯數字與羅馬數字轉換",
+      "href": "https://www.hasgg.com/arabic-roman-number-conversion"
+    },
+    {
+      "text": "隨機密碼生成",
+      "href": "https://www.hasgg.com/random-password-generation"
+    },
+    {
+      "text": "隨機數生成",
+      "href": "https://www.hasgg.com/random-number-generator"
+    },
+    {
+      "text": "隨機迷宮生成",
+      "href": "https://www.hasgg.com/random-maze-generator"
+    },
+    {
+      "text": "手持彈幕",
+      "href": "https://www.hasgg.com/handheld-danmaku"
+    },
+    {
+      "text": "在線倒計時器",
+      "href": "https://www.hasgg.com/countdown-timer"
+    },
+    {
+      "text": "2048 網頁遊戲",
+      "href": "https://www.hasgg.com/2048-game"
+    },
+    {
+      "text": "掃雷 網頁遊戲",
+      "href": "https://www.hasgg.com/minesweeper-online"
+    },
+    {
+      "text": "音頻剪切器",
+      "href": "https://www.hasgg.com/audio-cutter"
+    },
+    {
+      "text": "印章生成器",
+      "href": "https://www.hasgg.com/seal-generator"
+    },
+    {
+      "text": "印章拓印複製",
+      "href": "https://www.hasgg.com/seal-copy"
+    },
+    {
+      "text": "屏幕錄製",
+      "href": "https://www.hasgg.com/screen-recording-tool"
+    },
+    {
+      "text": "攝像頭錄製",
+      "href": "https://www.hasgg.com/camera-recording-tool"
+    },
+    {
+      "text": "數學公式生成器",
+      "href": "https://www.hasgg.com/latex-to-images"
+    },
+    {
+      "text": "在線數獨遊戲生成器",
+      "href": "https://www.hasgg.com/online-sudoku-generator"
+    },
+    {
+      "text": "在線數獨求解器",
+      "href": "https://www.hasgg.com/online-sudoku-solver"
+    },
+    {
+      "text": "書法字體生成器",
+      "href": "https://www.hasgg.com/font-converter"
+    },
+    {
+      "text": "朋友圈點贊截圖生成器",
+      "href": "https://www.hasgg.com/wechat-moments-like-screenshot-generator"
+    },
+    {
+      "text": "身份證生成器",
+      "href": "https://www.hasgg.com/id-card-generator"
+    },
+    {
+      "text": "身份證號碼生成器",
+      "href": "https://www.hasgg.com/id-number-generator"
+    },
+    {
+      "text": "微信對話生成器",
+      "href": "https://www.hasgg.com/wechat-dialogue-generator"
+    },
+    {
+      "text": "微信聊天截圖生成器",
+      "href": "https://www.hasgg.com/wechat-chat-screenshot-generator"
+    },
+    {
+      "text": "支付寶轉賬截圖生成器",
+      "href": "https://www.hasgg.com/alipay-transfer-screenshot"
+    },
+    {
+      "text": "微信零錢頁面截圖生成器",
+      "href": "https://www.hasgg.com/wechat-change-page-screenshot"
+    },
+    {
+      "text": "微信領取紅包截圖生成器",
+      "href": "https://www.hasgg.com/wechat-receive-red-packet-screenshot"
+    },
+    {
+      "text": "微信付款賬單詳情截圖生成器",
+      "href": "https://www.hasgg.com/wechat-payment-bill-detail-screenshot"
+    },
+    {
+      "text": "微信收款賬單詳情截圖生成器",
+      "href": "https://www.hasgg.com/wechat-receive-bill-detail-screenshot"
+    },
+    {
+      "text": "微信掃碼付款賬單截圖生成器",
+      "href": "https://www.hasgg.com/wechat-code-payment-bill-screenshot"
+    },
+    {
+      "text": "微信轉賬詳情截圖生成器",
+      "href": "https://www.hasgg.com/wechat-transfer-details-screenshot"
+    },
+    {
+      "text": "支付寶賬戶餘額截圖生成器",
+      "href": "https://www.hasgg.com/alipay-account-balance-screenshot"
+    },
+    {
+      "text": "淘寶訂單詳情截圖生成器",
+      "href": "https://www.hasgg.com/taobao-order-details-screenshot"
+    },
+    {
+      "text": "QQ聊天對話截圖生成器",
+      "href": "https://www.hasgg.com/qq-chat-conversation-screenshot"
+    },
+    {
+      "text": "支付寶聊天對話截圖生成器",
+      "href": "https://www.hasgg.com/alipay-chat-conversation-screenshot"
+    },
+    {
+      "text": "微信聊天對話截圖生成器",
+      "href": "https://www.hasgg.com/wechat-chat-conversation-screenshot"
+    },
+    {
+      "text": "支付寶到賬語音生成器",
+      "href": "https://www.hasgg.com/alipay-voice-generator"
+    },
+    {
+      "text": "在線五筆輸入法練習工具",
+      "href": "https://www.hasgg.com/wubi-game-practice"
+    },
+    {
+      "text": "命理運勢",
+      "href": "https://www.hasgg.com/numerology-horoscope"
+    },
+    {
+      "text": "萬年曆查詢",
+      "href": "https://www.hasgg.com/perpetual-calendar"
+    },
+    {
+      "text": "老黃曆查詢",
+      "href": "https://www.hasgg.com/today-almanac"
+    },
+    {
+      "text": "八字命盤查詢",
+      "href": "https://www.hasgg.com/eight2-characters"
+    },
+    {
+      "text": "生辰八字查詢",
+      "href": "https://www.hasgg.com/eight-characters"
+    },
+    {
+      "text": "詩詞起名",
+      "href": "https://www.hasgg.com/traditional-literature-naming"
+    },
+    {
+      "text": "電子木魚敲擊器",
+      "href": "https://www.hasgg.com/wooden-fish-beater"
+    },
+    {
+      "text": "手機號吉凶測試",
+      "href": "https://www.hasgg.com/phone-number-good-luck"
+    },
+    {
+      "text": "黃道吉日查詢",
+      "href": "https://www.hasgg.com/auspicious-days"
+    },
+    {
+      "text": "訂婚吉日查詢",
+      "href": "https://www.hasgg.com/engagement-date"
+    },
+    {
+      "text": "結婚吉日查詢",
+      "href": "https://www.hasgg.com/wedding-day"
+    },
+    {
+      "text": "搬家吉日查詢",
+      "href": "https://www.hasgg.com/moving-day"
+    },
+    {
+      "text": "入宅吉日查詢",
+      "href": "https://www.hasgg.com/moving-into-new-house"
+    },
+    {
+      "text": "開業吉日查詢",
+      "href": "https://www.hasgg.com/opening-day"
+    },
+    {
+      "text": "裝修吉日查詢",
+      "href": "https://www.hasgg.com/decoration-auspicious-day"
+    },
+    {
+      "text": "動土吉日查詢",
+      "href": "https://www.hasgg.com/lay-foundations-auspicious-day"
+    },
+    {
+      "text": "安門吉日查詢",
+      "href": "https://www.hasgg.com/auspicious-day-installing-door"
+    },
+    {
+      "text": "八字合婚分析",
+      "href": "https://www.hasgg.com/eight-characters-marriage"
+    },
+    {
+      "text": "灶馬頭節氣時刻查詢",
+      "href": "https://www.hasgg.com/zaomatou-solar-terms"
+    },
+    {
+      "text": "農曆年月日干支查詢",
+      "href": "https://www.hasgg.com/ganzhi-query"
+    },
+    {
+      "text": "農曆年月天數查詢",
+      "href": "https://www.hasgg.com/year-month-day-count"
+    },
+    {
+      "text": "吉神方位查詢",
+      "href": "https://www.hasgg.com/jishen-position"
+    },
+    {
+      "text": "每日宜忌查詢",
+      "href": "https://www.hasgg.com/day-time-yiji"
+    },
+    {
+      "text": "八字轉陽曆與農曆",
+      "href": "https://www.hasgg.com/bazi-to-solar-lunar"
+    },
+    {
+      "text": "陽曆、公曆轉八字",
+      "href": "https://www.hasgg.com/solar-to-bazi"
+    },
+    {
+      "text": "搜索",
+      "href": ""
+    },
+    {
+      "text": "登錄 / 註冊",
+      "href": ""
+    },
+    {
+      "text": "首頁",
+      "href": "https://www.hasgg.com/"
+    },
+    {
+      "text": "K 線圖製作",
+      "href": ""
+    }
+  ],
+  "tableData": [
+    {
+      "headers": [
+        "日期",
+        "開盤價",
+        "收盤價",
+        "最低價",
+        "最高價"
+      ],
+      "rows": [
+        [
+          "2024/06/01",
+          "9",
+          "9",
+          "8",
+          "18"
+        ],
+        [
+          "2024/06/02",
+          "7",
+          "11",
+          "12",
+          "17"
+        ],
+        [
+          "2024/06/03",
+          "6",
+          "7",
+          "8",
+          "16"
+        ],
+        [
+          "2024/06/04",
+          "10",
+          "8",
+          "11",
+          "16"
+        ],
+        [
+          "2024/06/05",
+          "9",
+          "11",
+          "14",
+          "20"
+        ],
+        [
+          "2024/06/06",
+          "8",
+          "24",
+          "15",
+          "44"
+        ]
+      ]
+    }
+  ],
+  "mainContent": "\n\n\t\t \n<script src=\"wp-content/themes/wndt-master/static/js/echarts.min.js\"></script> \n<script src=\"wp-content/themes/wndt-master/static/js/xlsx.core.min.js\"></script> \n<script src=\"wp-content/themes/wndt-master/static/js/pie-chart-theme/azul.js\"></script> \n\n<script src=\"wp-content/themes/wndt-master/static/js/pie-chart-theme/bee-inspired.js\"></script> \n<script src=\"wp-content/themes/wndt-master/static/js/pie-chart-theme/blue.js\"></script> \n<script src=\"wp-content/themes/wndt-master/static/js/pie"
+}

@@ -1,0 +1,86 @@
+{
+  "note": "URL https://www.hasgg.com/online-flowchart-drawing2 redirects to line-chart-creation page. The actual flowchart tool is at a different URL.",
+  "extracted_at": "2026-05-11",
+  "page_structure": {
+    "navigation": {
+      "logo": {
+        "text": "聚集工具",
+        "href": "https://www.hasgg.com",
+        "image": "hasgg.png"
+      },
+      "categories": [
+        "金融理財",
+        "數據圖表",
+        "單位換算",
+        "地理坐標",
+        "文檔辦公",
+        "文本處理",
+        "站長開發",
+        "圖片處理",
+        "日常生活",
+        "命理運勢"
+      ],
+      "actions": ["搜索", "登錄 / 註冊"]
+    },
+    "header": {
+      "breadcrumb": ["首頁", "折線圖製作"],
+      "h1": "折線圖製作工具"
+    },
+    "form_inputs": [
+      {"label": "標題[可選]：", "type": "textbox", "placeholder": "輸入標題", "default": "某網站流量來源"},
+      {"label": "副標題[可選]：", "type": "textbox", "placeholder": "輸入副標題", "default": "周流量折線圖"},
+      {"label": "統計維度[可選]：", "type": "textbox", "placeholder": "輸入統計維度", "default": "流量"},
+      {"label": "計量單位[可選]：", "type": "textbox", "placeholder": "輸入計量單位", "default": "ip"},
+      {"label": "選擇主題[可選]：", "type": "combobox", "options": ["默認", "藍色", "蜜蜂靈感", "藍色", "大篷車", "鯉魚", "酷", "深色", "深藍", "深-黑", "深色虎皮", "深色鮮切", "深蘑菇色", "愛德華", "森林", "鮮切", "水果", "灰色", "綠色", "鶴望蘭", "信息圖表", "靈感", "爵士", "倫敦", "馬卡龍", "馬卡龍2", "薄荷", "包裝", "紅色", "紅色天鵝絨", "羅馬", "皇家", "櫻花", "光澤", "科技藍", "復古"]},
+      {"label": "*添加數據或：", "type": "button"}
+    ],
+    "data_table": {
+      "columns": ["數據", "Email", "Union Ads", "Video Ads", "Direct", "Search Engine"],
+      "rows": [
+        {"day": "Mon", "values": [120, 220, 150, 320, 820]},
+        {"day": "Tue", "values": [132, 182, 232, 332, 932]},
+        {"day": "Wed", "values": [101, 191, 201, 301, 901]},
+        {"day": "Thu", "values": [134, 234, 154, 334, 934]},
+        {"day": "Fri", "values": [90, 290, 190, 390, 1290]},
+        {"day": "Sat", "values": [230, 321, 332, 344, 1389]},
+        {"day": "Sun", "values": [210, 311, 421, 323, 1330]}
+      ]
+    },
+    "action_buttons": ["導入Excel", "添加一行", "添加一豎", "清除數據", "生成圖表", "下載圖表", "清除所有"],
+    "options": {
+      "legend_position": {"type": "radio", "options": ["左側", "右側", "頂部", "底部", "隱藏"], "default": "左側"},
+      "other_options": {"type": "checkbox", "options": ["顯示數值標籤", "曲線", "階梯圖", "基礎面積圖", "堆疊面積圖", "漸變色"]}
+    },
+    "additional_inputs": [
+      {"label": "附加信息內容[可選]：", "placeholder": "輸入附加信息", "default": "數據來源：聚集工具"},
+      {"label": "文字大小(px)：", "type": "spinbutton", "default": "12"},
+      {"label": "文字顏色：", "default": "#cbc3c3"},
+      {"label": "水印內容[可選]：", "placeholder": "輸入水印內容", "default": "作者：hasgg.com"},
+      {"label": "文字大小(px)：", "type": "spinbutton", "default": "12"},
+      {"label": "文字顏色：", "default": "#cbc3c3"}
+    ],
+    "images": [
+      {"alt": "Excel數據格式示例圖", "box": [349, 2521, 727, 243], "path": "/wp-content/themes/wndt-master/static/images/basic-stacked-bar-chart-creation-excel.png"},
+      {"alt": "折線圖製作工具示例圖", "box": [353, 2877, 720, 480], "path": "/wp-content/themes/wndt-master/static/images/line-chart-creation.png"}
+    ],
+    "footer": {
+      "stats": "Files:164 - Queries:0 - Time:0.038 - Mem:3.5107",
+      "copyright": "Copyright ©2026 保留所有權利",
+      "links": ["聚集工具", "網站協議"]
+    }
+  },
+  "technologies": [
+    "Vue.js (vue.global.prod.js)",
+    "ECharts (echarts.min.js)",
+    "xlsx.core.min.js",
+    "jQuery",
+    "Layer.js",
+    "Bulma CSS",
+    "Font Awesome"
+  ],
+  "external_resources": [
+    "Google Adsense",
+    "Baidu Analytics",
+    "Cloudflare Insights"
+  ]
+}
