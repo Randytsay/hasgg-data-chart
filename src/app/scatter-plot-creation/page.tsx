@@ -80,14 +80,14 @@ export default function ScatterPlotCreationPage() {
       type: "scatter" as const,
       data: dataPoints
         .filter((d) => d.category === cat || (!d.category && cat === "默認"))
-        .map((d) => [parseFloat(d.x), parseFloat(d.y), parseFloat(d.size || "10")]),
+        .map((d) => [Number(d.x), Number(d.y), Number(d.size || 10)]),
     }));
 
     const legendPositions: Record<LegendPosition, { left?: string; right?: string; top?: string; bottom?: string }> = {
-      top: { top: 20 },
-      bottom: { bottom: 20 },
-      left: { left: 20 },
-      right: { right: 20 },
+      top: { top: "20" },
+      bottom: { bottom: "20" },
+      left: { left: "20" },
+      right: { right: "20" },
       none: {},
     };
 
